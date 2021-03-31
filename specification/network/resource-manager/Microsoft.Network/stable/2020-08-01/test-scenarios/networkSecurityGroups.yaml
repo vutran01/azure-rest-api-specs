@@ -1,0 +1,112 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/networkSecurityGroups Create network security group
+    steps:
+      - step: Create network security group
+        exampleFile: ../examples/NetworkSecurityGroupCreate.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups Create network security group with
+      rule
+    steps:
+      - step: Create network security group with rule
+        exampleFile: ../examples/NetworkSecurityGroupCreateWithRule.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg1_Generated
+    steps:
+      - step: Create_networkSecurityGroups_nsg1_Generated
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg1_Generated.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_mynsg_Generated
+    steps:
+      - step: Create_networkSecurityGroups_mynsg_Generated
+        exampleFile: ../examples/Create_networkSecurityGroups_mynsg_Generated.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_myothernsg_Generated
+    steps:
+      - step: Create_networkSecurityGroups_myothernsg_Generated
+        exampleFile: ../examples/Create_networkSecurityGroups_myothernsg_Generated.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_test-nsg1_Generated
+    steps:
+      - step: Create_networkSecurityGroups_test-nsg1_Generated
+        exampleFile: ../examples/Create_networkSecurityGroups_test-nsg1_Generated.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_test-vnet-nsg_Generated
+    steps:
+      - step: Create_networkSecurityGroups_test-vnet-nsg_Generated
+        exampleFile: ../examples/Create_networkSecurityGroups_test-vnet-nsg_Generated.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg_Generated
+    steps:
+      - step: Create_networkSecurityGroups_nsg_Generated
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg_Generated.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg1_Generated_2686
+    steps:
+      - step: Create_networkSecurityGroups_nsg1_Generated_2686
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg1_Generated_2686.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg1_Generated_2742
+    steps:
+      - step: Create_networkSecurityGroups_nsg1_Generated_2742
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg1_Generated_2742.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg1_Generated_3017
+    steps:
+      - step: Create_networkSecurityGroups_nsg1_Generated_3017
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg1_Generated_3017.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg1_Generated_3028
+    steps:
+      - step: Create_networkSecurityGroups_nsg1_Generated_3028
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg1_Generated_3028.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg1_Generated_3040
+    steps:
+      - step: Create_networkSecurityGroups_nsg1_Generated_3040
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg1_Generated_3040.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/networkSecurityGroups
+      Create_networkSecurityGroups_nsg1_Generated_3054
+    steps:
+      - step: Create_networkSecurityGroups_nsg1_Generated_3054
+        exampleFile: ../examples/Create_networkSecurityGroups_nsg1_Generated_3054.json
+      - step: Delete network security group
+        exampleFile: ../examples/NetworkSecurityGroupDelete.json

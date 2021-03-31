@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.AzureData/sqlManagedInstances Updates a SQL Managed Instance
+      tags.
+    steps:
+      - step: Updates a SQL Managed Instance tags.
+        exampleFile: ../examples/CreateOrUpdateSqlManagedInstance.json
+      - step: Delete a SQL Instance.
+        exampleFile: ../examples/DeleteSqlManagedInstance.json

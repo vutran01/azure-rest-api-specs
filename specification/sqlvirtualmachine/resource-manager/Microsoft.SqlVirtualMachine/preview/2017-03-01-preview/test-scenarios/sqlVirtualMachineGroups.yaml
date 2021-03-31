@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.SqlVirtualMachine/sqlVirtualMachineGroups Creates or updates a
+      SQL virtual machine group.
+    steps:
+      - step: Creates or updates a SQL virtual machine group.
+        exampleFile: ../examples/CreateOrUpdateSqlVirtualMachineGroup.json
+      - step: Deletes a SQL virtual machine group.
+        exampleFile: ../examples/DeleteSqlVirtualMachineGroup.json

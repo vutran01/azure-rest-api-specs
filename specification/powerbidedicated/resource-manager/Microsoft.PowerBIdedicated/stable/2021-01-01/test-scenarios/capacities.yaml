@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.PowerBIDedicated/capacities Create capacity
+    steps:
+      - step: Create capacity
+        exampleFile: ../examples/createCapacity.json
+      - step: Get details of a capacity
+        exampleFile: ../examples/deleteCapacity.json

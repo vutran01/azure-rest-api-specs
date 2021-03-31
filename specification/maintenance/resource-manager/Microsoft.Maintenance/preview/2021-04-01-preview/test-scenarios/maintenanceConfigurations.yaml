@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Maintenance/maintenanceConfigurations
+      MaintenanceConfigurations_CreateOrUpdateForResource
+    steps:
+      - step: MaintenanceConfigurations_CreateOrUpdateForResource
+        exampleFile: ../examples/MaintenanceConfigurations_CreateOrUpdateForResource.json
+      - step: MaintenanceConfigurations_DeleteForResource
+        exampleFile: ../examples/MaintenanceConfigurations_DeleteForResource.json

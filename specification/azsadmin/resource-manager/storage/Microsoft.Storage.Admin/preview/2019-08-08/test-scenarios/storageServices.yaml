@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Storage.Admin/storageServices Create the specified storage
+      resource.
+    steps:
+      - step: Create the specified storage resource.
+        exampleFile: ../examples/StorageServices/Put.json

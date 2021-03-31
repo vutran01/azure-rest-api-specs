@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.GuestConfiguration/guestConfigurationAssignments Create or
+      update guest configuration assignment
+    steps:
+      - step: Create or update guest configuration assignment
+        exampleFile: ../examples/createOrUpdateGuestConfigurationAssignment.json
+      - step: Delete an guest configuration assignment
+        exampleFile: ../examples/deleteGuestConfigurationAssignment.json

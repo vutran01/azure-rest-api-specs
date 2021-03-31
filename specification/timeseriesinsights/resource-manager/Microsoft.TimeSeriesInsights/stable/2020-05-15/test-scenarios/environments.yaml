@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.TimeSeriesInsights/environments EnvironmentsCreate
+    steps:
+      - step: EnvironmentsCreate
+        exampleFile: ../examples/EnvironmentsCreate.json
+      - step: EnvironmentsDelete
+        exampleFile: ../examples/EnvironmentsDelete.json

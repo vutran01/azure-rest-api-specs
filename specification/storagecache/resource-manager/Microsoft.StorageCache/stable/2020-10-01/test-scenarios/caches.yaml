@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.StorageCache/caches Caches_CreateOrUpdate
+    steps:
+      - step: Caches_CreateOrUpdate
+        exampleFile: ../examples/Caches_CreateOrUpdate.json
+      - step: Caches_Delete
+        exampleFile: ../examples/Caches_Delete.json
+  - description: Microsoft.StorageCache/caches Caches_CreateOrUpdate_ldap_only
+    steps:
+      - step: Caches_CreateOrUpdate_ldap_only
+        exampleFile: ../examples/Caches_CreateOrUpdate_ldap_only.json
+      - step: Caches_Delete
+        exampleFile: ../examples/Caches_Delete.json

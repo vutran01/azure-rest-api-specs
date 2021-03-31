@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.MachineLearningCompute/operationalizationClusters PUT
+      Operationalization Cluster
+    steps:
+      - step: PUT Operationalization Cluster
+        exampleFile: ../examples/OperationalizationClusters_CreateOrUpdate.json
+      - step: DELETE Operationalization Cluster
+        exampleFile: ../examples/OperationalizationClusters_Delete.json

@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/ExpressRoutePorts ExpressRoutePortCreate
+    steps:
+      - step: ExpressRoutePortCreate
+        exampleFile: ../examples/ExpressRoutePortCreate.json
+      - step: ExpressRoutePortDelete
+        exampleFile: ../examples/ExpressRoutePortDelete.json
+  - description: Microsoft.Network/ExpressRoutePorts ExpressRoutePortUpdateLink
+    steps:
+      - step: ExpressRoutePortUpdateLink
+        exampleFile: ../examples/ExpressRoutePortUpdateLink.json
+      - step: ExpressRoutePortDelete
+        exampleFile: ../examples/ExpressRoutePortDelete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/IpAllocations Create IpAllocation
+    steps:
+      - step: Create IpAllocation
+        exampleFile: ../examples/IpAllocationCreate.json
+      - step: Delete IpAllocation
+        exampleFile: ../examples/IpAllocationDelete.json

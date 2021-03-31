@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Kusto/clusters KustoClustersCreateOrUpdate
+    steps:
+      - step: KustoClustersCreateOrUpdate
+        exampleFile: ../examples/KustoClustersCreateOrUpdate.json
+      - step: KustoClustersDelete
+        exampleFile: ../examples/KustoClustersDelete.json

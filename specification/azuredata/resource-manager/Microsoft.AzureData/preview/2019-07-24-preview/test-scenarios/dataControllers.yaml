@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AzureData/dataControllers Updates a dataControllers tags.
+    steps:
+      - step: Updates a dataControllers tags.
+        exampleFile: ../examples/CreateOrUpdateDataController.json
+      - step: Delete a dataController.
+        exampleFile: ../examples/DeleteDataController.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EdgeOrder/orders CreateOrder
+    steps:
+      - step: CreateOrder
+        exampleFile: ../examples/OrderCreate.json
+      - step: DeleteOrderByName
+        exampleFile: ../examples/OrderDelete.json

@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ContainerRegistry/registries RegistryCreate
+    steps:
+      - step: RegistryCreate
+        exampleFile: ../examples/RegistryCreate.json
+      - step: RegistryDelete
+        exampleFile: ../examples/RegistryDelete.json
+  - description: Microsoft.ContainerRegistry/registries RegistryCreateZoneRedundant
+    steps:
+      - step: RegistryCreateZoneRedundant
+        exampleFile: ../examples/RegistryCreateZoneRedundant.json
+      - step: RegistryDelete
+        exampleFile: ../examples/RegistryDelete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DataMigration/services Services_CreateOrUpdate
+    steps:
+      - step: Services_CreateOrUpdate
+        exampleFile: ../examples/Services_CreateOrUpdate.json
+      - step: Services_CreateOrUpdate
+        exampleFile: ../examples/Services_Delete.json

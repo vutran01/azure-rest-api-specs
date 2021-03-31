@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.WindowsIoT/deviceServices Service_Create
+    steps:
+      - step: Service_Create
+        exampleFile: ../examples/Service_Create.json
+      - step: Service_Delete
+        exampleFile: ../examples/Service_Delete.json

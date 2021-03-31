@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Web/certificates Create Or Update Certificate
+    steps:
+      - step: Create Or Update Certificate
+        exampleFile: ../examples/CreateOrUpdateCertificate.json
+      - step: Delete Certificate
+        exampleFile: ../examples/DeleteCertificate.json

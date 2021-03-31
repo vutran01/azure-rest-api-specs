@@ -1,0 +1,6 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Advisor/configurations PutConfigurations
+    steps:
+      - step: PutConfigurations
+        exampleFile: ../examples/CreateConfiguration.json

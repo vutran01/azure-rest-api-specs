@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/ipGroups CreateOrUpdate_IpGroups
+    steps:
+      - step: CreateOrUpdate_IpGroups
+        exampleFile: ../examples/IpGroupsCreate.json
+      - step: Delete_IpGroups
+        exampleFile: ../examples/IpGroupsDelete.json

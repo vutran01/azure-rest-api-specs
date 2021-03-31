@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EventGrid/topics Topics_CreateOrUpdate
+    steps:
+      - step: Topics_CreateOrUpdate
+        exampleFile: ../examples/Topics_CreateOrUpdate.json
+      - step: Topics_Delete
+        exampleFile: ../examples/Topics_Delete.json

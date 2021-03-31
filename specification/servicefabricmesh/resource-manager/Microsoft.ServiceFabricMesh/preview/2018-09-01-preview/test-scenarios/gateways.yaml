@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ServiceFabricMesh/gateways CreateOrUpdateGateway
+    steps:
+      - step: CreateOrUpdateGateway
+        exampleFile: ../examples/gateways/create_update.json
+      - step: DeleteGateway
+        exampleFile: ../examples/gateways/delete.json

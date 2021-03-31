@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HybridNetwork/networkFunctions Create network function resource
+    steps:
+      - step: Create network function resource
+        exampleFile: ../examples/NetworkFunctionCreate.json
+      - step: Delete network function resource
+        exampleFile: ../examples/NetworkFunctionDelete.json

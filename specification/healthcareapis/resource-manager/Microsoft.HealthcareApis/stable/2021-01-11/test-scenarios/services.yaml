@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.HealthcareApis/services Create or Update a service with all
+      parameters
+    steps:
+      - step: Create or Update a service with all parameters
+        exampleFile: ../examples/ServiceCreate.json
+      - step: Delete service
+        exampleFile: ../examples/ServiceDelete.json
+  - description: >-
+      Microsoft.HealthcareApis/services Create or Update a service with minimum
+      parameters
+    steps:
+      - step: Create or Update a service with minimum parameters
+        exampleFile: ../examples/ServiceCreateMinimum.json
+      - step: Delete service
+        exampleFile: ../examples/ServiceDelete.json

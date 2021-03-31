@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HealthBot/healthBots BotCreate
+    steps:
+      - step: BotCreate
+        exampleFile: ../examples/ResourceCreationPut.json
+      - step: BotDelete
+        exampleFile: ../examples/ResourceDeletionDelete.json

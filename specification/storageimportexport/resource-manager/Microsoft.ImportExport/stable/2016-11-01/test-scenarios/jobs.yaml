@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ImportExport/jobs Create import job
+    steps:
+      - step: Create import job
+        exampleFile: ../examples/CreateJob.json
+      - step: Delete job
+        exampleFile: ../examples/DeleteJob.json
+  - description: Microsoft.ImportExport/jobs Create export job
+    steps:
+      - step: Create export job
+        exampleFile: ../examples/CreateExportJob.json
+      - step: Delete job
+        exampleFile: ../examples/DeleteJob.json

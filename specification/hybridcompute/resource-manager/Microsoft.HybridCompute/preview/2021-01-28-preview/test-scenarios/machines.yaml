@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HybridCompute/machines Create or Update a Machine
+    steps:
+      - step: Create or Update a Machine
+        exampleFile: ../examples/Machines_CreateOrUpdate.json
+      - step: Delete a Machine
+        exampleFile: ../examples/Machines_Delete.json

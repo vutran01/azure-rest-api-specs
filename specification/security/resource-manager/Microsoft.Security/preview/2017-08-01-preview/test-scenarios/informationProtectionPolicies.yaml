@@ -1,0 +1,11 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/informationProtectionPolicies Create or update an
+      information protection policy for a management group
+    steps:
+      - step: >-
+          Create or update an information protection policy for a management
+          group
+        exampleFile: >-
+          ../examples/InformationProtectionPolicies/CreateOrUpdateInformationProtectionPolicy_example.json

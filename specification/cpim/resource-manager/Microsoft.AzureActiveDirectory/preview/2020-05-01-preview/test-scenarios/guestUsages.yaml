@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AzureActiveDirectory/guestUsages GuestUsages_Create
+    steps:
+      - step: GuestUsages_Create
+        exampleFile: ../examples/GuestUsagesCreate.json
+      - step: GuestUsages_Delete
+        exampleFile: ../examples/GuestUsagesDelete.json

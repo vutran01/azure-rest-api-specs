@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.AzureStack/registrations Create or update an Azure Stack
+      registration.
+    steps:
+      - step: Create or update an Azure Stack registration.
+        exampleFile: ../examples/Registration/Put.json
+      - step: Delete the requested Azure Stack registration.
+        exampleFile: ../examples/Registration/Delete.json

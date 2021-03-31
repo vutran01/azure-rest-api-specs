@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Consumption/budgets CreateOrUpdateBudget
+    steps:
+      - step: CreateOrUpdateBudget
+        exampleFile: ../examples/CreateOrUpdateBudget.json
+      - step: DeleteBudget
+        exampleFile: ../examples/DeleteBudget.json

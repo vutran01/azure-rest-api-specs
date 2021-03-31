@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/bastionHosts Create Bastion Host
+    steps:
+      - step: Create Bastion Host
+        exampleFile: ../examples/BastionHostPut.json
+      - step: Delete Bastion Host
+        exampleFile: ../examples/BastionHostDelete.json
+  - description: Microsoft.Network/bastionHosts Create_bastionHosts_clibastion_Generated
+    steps:
+      - step: Create_bastionHosts_clibastion_Generated
+        exampleFile: ../examples/Create_bastionHosts_clibastion_Generated.json
+      - step: Delete Bastion Host
+        exampleFile: ../examples/BastionHostDelete.json

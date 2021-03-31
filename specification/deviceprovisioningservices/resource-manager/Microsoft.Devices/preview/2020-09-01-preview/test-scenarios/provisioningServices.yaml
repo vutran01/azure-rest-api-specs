@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Devices/provisioningServices DPSCreate
+    steps:
+      - step: DPSCreate
+        exampleFile: ../examples/DPSCreate.json
+      - step: DPSDelete
+        exampleFile: ../examples/DPSDelete.json

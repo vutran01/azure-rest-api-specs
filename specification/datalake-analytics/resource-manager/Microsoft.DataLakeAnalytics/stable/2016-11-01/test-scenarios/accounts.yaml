@@ -1,0 +1,15 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.DataLakeAnalytics/accounts Creates the specified Data Lake
+      Analytics account. This supplies the user with computation services for
+      Data Lake Analytics workloads.
+    steps:
+      - step: >-
+          Creates the specified Data Lake Analytics account. This supplies the
+          user with computation services for Data Lake Analytics workloads.
+        exampleFile: ../examples/Accounts_Create.json
+      - step: >-
+          Begins the delete process for the Data Lake Analytics account object
+          specified by the account name.
+        exampleFile: ../examples/Accounts_Delete.json

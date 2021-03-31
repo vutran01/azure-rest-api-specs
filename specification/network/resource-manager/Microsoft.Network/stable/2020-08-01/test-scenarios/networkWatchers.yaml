@@ -1,0 +1,16 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/networkWatchers Create network watcher
+    steps:
+      - step: Create network watcher
+        exampleFile: ../examples/NetworkWatcherCreate.json
+      - step: Delete network watcher
+        exampleFile: ../examples/NetworkWatcherDelete.json
+  - description: >-
+      Microsoft.Network/networkWatchers
+      Create_networkWatchers_canadaeast-watcher_Generated
+    steps:
+      - step: Create_networkWatchers_canadaeast-watcher_Generated
+        exampleFile: ../examples/Create_networkWatchers_canadaeast-watcher_Generated.json
+      - step: Delete network watcher
+        exampleFile: ../examples/NetworkWatcherDelete.json

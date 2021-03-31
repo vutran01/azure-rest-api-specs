@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ServiceFabricMesh/applications CreateOrUpdateApplication
+    steps:
+      - step: CreateOrUpdateApplication
+        exampleFile: ../examples/applications/create_update.json
+      - step: DeleteApplication
+        exampleFile: ../examples/applications/delete.json

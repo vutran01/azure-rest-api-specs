@@ -1,0 +1,16 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Sql/managedInstances Create managed instance with minimal
+      properties
+    steps:
+      - step: Create managed instance with minimal properties
+        exampleFile: ../examples/ManagedInstanceCreateMin.json
+      - step: Delete managed instance
+        exampleFile: ../examples/ManagedInstanceDelete.json
+  - description: Microsoft.Sql/managedInstances Create managed instance with all properties
+    steps:
+      - step: Create managed instance with all properties
+        exampleFile: ../examples/ManagedInstanceCreateMax.json
+      - step: Delete managed instance
+        exampleFile: ../examples/ManagedInstanceDelete.json

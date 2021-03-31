@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/virtualHubs Create_virtualHubs_vrouter2_Generated
+    steps:
+      - step: Create_virtualHubs_vrouter2_Generated
+        exampleFile: ../examples/Create_virtualHubs_vrouter2_Generated.json
+      - step: VirtualHubDelete
+        exampleFile: ../examples/VirtualHubDelete.json

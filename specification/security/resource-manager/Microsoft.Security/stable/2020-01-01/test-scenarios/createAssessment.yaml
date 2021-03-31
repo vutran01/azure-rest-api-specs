@@ -1,0 +1,15 @@
+scope: ResourceGroup
+
+prepareSteps:
+  - armTemplateDeployment: createVMSS.json
+    armTemplateParameters: createVMSSParameters.json
+
+testScenarios:
+  - description: createAssessment
+    steps:
+      - exampleFile: ../examples/AssessmentsMetadata/CreateAssessmentsMetadata_subscription_example.json
+      - exampleFile: ../examples/AssessmentsMetadata/GetAssessmentsMetadata_subscription_example.json
+      - exampleFile: ../examples/Assessments/PutAssessment_example.json
+      - exampleFile: ../examples/Assessments/GetAssessment_example.json
+      - exampleFile: ../examples/Assessments/ListAssessments_example.json
+      - exampleFile: ../examples/Assessments/DeleteAssessment_example.json

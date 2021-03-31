@@ -1,0 +1,52 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.SqlVirtualMachine/sqlVirtualMachines Creates or updates a SQL
+      virtual machine with min parameters.
+    steps:
+      - step: Creates or updates a SQL virtual machine with min parameters.
+        exampleFile: ../examples/CreateOrUpdateSqlVirtualMachineMIN.json
+      - step: Deletes a SQL virtual machine.
+        exampleFile: ../examples/DeleteSqlVirtualMachine.json
+  - description: >-
+      Microsoft.SqlVirtualMachine/sqlVirtualMachines Creates or updates a SQL
+      virtual machine with max parameters.
+    steps:
+      - step: Creates or updates a SQL virtual machine with max parameters.
+        exampleFile: ../examples/CreateOrUpdateSqlVirtualMachineMAX.json
+      - step: Deletes a SQL virtual machine.
+        exampleFile: ../examples/DeleteSqlVirtualMachine.json
+  - description: >-
+      Microsoft.SqlVirtualMachine/sqlVirtualMachines Creates or updates a SQL
+      virtual machine and joins it to a SQL virtual machine group.
+    steps:
+      - step: >-
+          Creates or updates a SQL virtual machine and joins it to a SQL virtual
+          machine group.
+        exampleFile: ../examples/CreateOrUpdateVirtualMachineWithVMGroup.json
+      - step: Deletes a SQL virtual machine.
+        exampleFile: ../examples/DeleteSqlVirtualMachine.json
+  - description: >-
+      Microsoft.SqlVirtualMachine/sqlVirtualMachines Creates or updates a SQL
+      virtual machine for Storage Configuration Settings to NEW Data, Log and
+      TempDB storage pool.
+    steps:
+      - step: >-
+          Creates or updates a SQL virtual machine for Storage Configuration
+          Settings to NEW Data, Log and TempDB storage pool.
+        exampleFile: >-
+          ../examples/CreateOrUpdateSqlVirtualMachineStorageConfigurationNEW.json
+      - step: Deletes a SQL virtual machine.
+        exampleFile: ../examples/DeleteSqlVirtualMachine.json
+  - description: >-
+      Microsoft.SqlVirtualMachine/sqlVirtualMachines Creates or updates a SQL
+      virtual machine for Storage Configuration Settings to EXTEND Data, Log or
+      TempDB storage pool.
+    steps:
+      - step: >-
+          Creates or updates a SQL virtual machine for Storage Configuration
+          Settings to EXTEND Data, Log or TempDB storage pool.
+        exampleFile: >-
+          ../examples/CreateOrUpdateSqlVirtualMachineStorageConfigurationEXTEND.json
+      - step: Deletes a SQL virtual machine.
+        exampleFile: ../examples/DeleteSqlVirtualMachine.json

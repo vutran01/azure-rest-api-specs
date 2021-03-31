@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Cache/redisEnterprise RedisEnterpriseCreate
+    steps:
+      - step: RedisEnterpriseCreate
+        exampleFile: ../examples/RedisEnterpriseCreate.json
+      - step: RedisEnterpriseDelete
+        exampleFile: ../examples/RedisEnterpriseDelete.json

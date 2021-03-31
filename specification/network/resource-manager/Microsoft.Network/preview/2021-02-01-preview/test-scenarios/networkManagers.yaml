@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/networkManagers Put Network Manager
+    steps:
+      - step: Put Network Manager
+        exampleFile: ../examples/NetworkManagerPut.json
+      - step: NetworkManagersDelete
+        exampleFile: ../examples/NetworkManagerDelete.json

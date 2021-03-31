@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DataShare/accounts Accounts_Create
+    steps:
+      - step: Accounts_Create
+        exampleFile: ../examples/Accounts_Create.json
+      - step: Accounts_Delete
+        exampleFile: ../examples/Accounts_Delete.json

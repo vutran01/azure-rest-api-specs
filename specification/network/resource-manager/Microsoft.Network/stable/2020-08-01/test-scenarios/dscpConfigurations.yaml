@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/dscpConfigurations Create DSCP Configuration
+    steps:
+      - step: Create DSCP Configuration
+        exampleFile: ../examples/DscpConfigurationCreate.json
+      - step: Delete DSCP Configuration
+        exampleFile: ../examples/DscpConfigurationDelete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Portal/userSettings PutUserSettings
+    steps:
+      - step: PutUserSettings
+        exampleFile: ../examples/PutUserSettings.json
+      - step: DeleteUserSettings
+        exampleFile: ../examples/DeleteUserSettings.json

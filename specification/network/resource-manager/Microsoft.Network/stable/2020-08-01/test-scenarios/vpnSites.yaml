@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/vpnSites VpnSiteCreate
+    steps:
+      - step: VpnSiteCreate
+        exampleFile: ../examples/VpnSitePut.json
+      - step: VpnSiteDelete
+        exampleFile: ../examples/VpnSiteDelete.json

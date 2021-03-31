@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.StorageSync/storageSyncServices StorageSyncServices_Create
+    steps:
+      - step: StorageSyncServices_Create
+        exampleFile: ../examples/StorageSyncServices_Create.json
+      - step: StorageSyncServices_Delete
+        exampleFile: ../examples/StorageSyncServices_Delete.json

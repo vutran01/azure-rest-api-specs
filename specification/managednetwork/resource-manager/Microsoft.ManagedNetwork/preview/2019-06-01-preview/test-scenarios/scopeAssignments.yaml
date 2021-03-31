@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ManagedNetwork/scopeAssignments ScopeAssignmentsPut
+    steps:
+      - step: ScopeAssignmentsPut
+        exampleFile: ../examples/ScopeAssignment/ScopeAssignmentsPut.json
+      - step: ScopeAssignmentsDelete
+        exampleFile: ../examples/ScopeAssignment/ScopeAssignmentsDelete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EventHub/namespaces NamespaceCreate
+    steps:
+      - step: NamespaceCreate
+        exampleFile: ../examples/NameSpaces/EHNameSpaceCreate.json
+      - step: NameSpaceDelete
+        exampleFile: ../examples/NameSpaces/EHNameSpaceDelete.json

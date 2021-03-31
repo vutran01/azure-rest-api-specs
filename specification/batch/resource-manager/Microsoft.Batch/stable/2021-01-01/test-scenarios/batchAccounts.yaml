@@ -1,0 +1,26 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Batch/batchAccounts BatchAccountCreate_Default
+    steps:
+      - step: BatchAccountCreate_Default
+        exampleFile: ../examples/BatchAccountCreate_Default.json
+      - step: BatchAccountDelete
+        exampleFile: ../examples/BatchAccountDelete.json
+  - description: Microsoft.Batch/batchAccounts BatchAccountCreate_BYOS
+    steps:
+      - step: BatchAccountCreate_BYOS
+        exampleFile: ../examples/BatchAccountCreate_BYOS.json
+      - step: BatchAccountDelete
+        exampleFile: ../examples/BatchAccountDelete.json
+  - description: Microsoft.Batch/batchAccounts PrivateBatchAccountCreate
+    steps:
+      - step: PrivateBatchAccountCreate
+        exampleFile: ../examples/PrivateBatchAccountCreate.json
+      - step: BatchAccountDelete
+        exampleFile: ../examples/BatchAccountDelete.json
+  - description: Microsoft.Batch/batchAccounts BatchAccountCreate_SystemAssignedIdentity
+    steps:
+      - step: BatchAccountCreate_SystemAssignedIdentity
+        exampleFile: ../examples/BatchAccountCreate_SystemAssignedIdentity.json
+      - step: BatchAccountDelete
+        exampleFile: ../examples/BatchAccountDelete.json

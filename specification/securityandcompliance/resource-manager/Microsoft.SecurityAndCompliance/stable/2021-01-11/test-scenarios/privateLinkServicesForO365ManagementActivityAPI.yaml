@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.SecurityAndCompliance/privateLinkServicesForO365ManagementActivityAPI
+      Create or Update a service with all parameters
+    steps:
+      - step: Create or Update a service with all parameters
+        exampleFile: ../examples/ManagementAPIServiceCreate.json
+      - step: Delete service
+        exampleFile: ../examples/ManagementAPIServiceDelete.json
+  - description: >-
+      Microsoft.SecurityAndCompliance/privateLinkServicesForO365ManagementActivityAPI
+      Create or Update a service with minimum parameters
+    steps:
+      - step: Create or Update a service with minimum parameters
+        exampleFile: ../examples/ManagementAPIServiceCreateMinimum.json
+      - step: Delete service
+        exampleFile: ../examples/ManagementAPIServiceDelete.json

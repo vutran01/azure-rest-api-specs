@@ -1,0 +1,12 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.DevOps/pipelines Create an Azure pipeline to deploy a sample
+      ASP.Net application to Azure web-app
+    steps:
+      - step: >-
+          Create an Azure pipeline to deploy a sample ASP.Net application to
+          Azure web-app
+        exampleFile: ../examples/CreateAzurePipeline-Sample-AspNet-WindowsWebApp.json
+      - step: Get an existing Azure pipeline
+        exampleFile: ../examples/DeleteAzurePipeline.json

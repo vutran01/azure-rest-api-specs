@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Migrate/moveCollections MoveCollections_Create
+    steps:
+      - step: MoveCollections_Create
+        exampleFile: ../examples/MoveCollections_Create.json
+      - step: MoveCollections_Delete
+        exampleFile: ../examples/MoveCollections_Delete.json

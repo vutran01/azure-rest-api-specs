@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/applicationSecurityGroups Create application security
+      group
+    steps:
+      - step: Create application security group
+        exampleFile: ../examples/ApplicationSecurityGroupCreate.json
+      - step: Delete application security group
+        exampleFile: ../examples/ApplicationSecurityGroupDelete.json
+  - description: >-
+      Microsoft.Network/applicationSecurityGroups
+      Create_applicationSecurityGroups_asg1_Generated
+    steps:
+      - step: Create_applicationSecurityGroups_asg1_Generated
+        exampleFile: ../examples/Create_applicationSecurityGroups_asg1_Generated.json
+      - step: Delete application security group
+        exampleFile: ../examples/ApplicationSecurityGroupDelete.json

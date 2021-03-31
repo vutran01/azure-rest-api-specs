@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EventGrid/partnerNamespaces PartnerNamespaces_CreateOrUpdate
+    steps:
+      - step: PartnerNamespaces_CreateOrUpdate
+        exampleFile: ../examples/PartnerNamespaces_CreateOrUpdate.json
+      - step: PartnerNamespaces_Delete
+        exampleFile: ../examples/PartnerNamespaces_Delete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.IoTSpaces/Graph Put an IoT spaces service
+    steps:
+      - step: Put an IoT spaces service
+        exampleFile: ../examples/IoTSpacesPut_example.json
+      - step: Delete an IoT spaces service
+        exampleFile: ../examples/IoTSpacesDelete_example.json

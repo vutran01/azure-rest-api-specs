@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Security/securityContacts Create security contact data minimal
+    steps:
+      - step: Create security contact data minimal
+        exampleFile: ../examples/SecurityContacts/CreateSecurityContact_min_example.json
+      - step: Delete security contact data
+        exampleFile: ../examples/SecurityContacts/DeleteSecurityContact_example.json
+  - description: Microsoft.Security/securityContacts Create security contact data full
+    steps:
+      - step: Create security contact data full
+        exampleFile: ../examples/SecurityContacts/CreateSecurityContact_full_example.json
+      - step: Delete security contact data
+        exampleFile: ../examples/SecurityContacts/DeleteSecurityContact_example.json

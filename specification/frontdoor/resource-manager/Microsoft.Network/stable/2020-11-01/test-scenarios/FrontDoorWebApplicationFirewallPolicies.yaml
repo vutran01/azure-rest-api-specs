@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/FrontDoorWebApplicationFirewallPolicies Creates specific
+      policy
+    steps:
+      - step: Creates specific policy
+        exampleFile: ../examples/WafPolicyCreateOrUpdate.json
+      - step: Delete protection policy
+        exampleFile: ../examples/WafPolicyDelete.json

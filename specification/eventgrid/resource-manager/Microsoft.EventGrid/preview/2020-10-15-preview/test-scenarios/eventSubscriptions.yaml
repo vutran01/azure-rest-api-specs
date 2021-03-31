@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.EventGrid/eventSubscriptions
+      EventSubscriptions_CreateOrUpdateForSubscription
+    steps:
+      - step: EventSubscriptions_CreateOrUpdateForSubscription
+        exampleFile: ../examples/EventSubscriptions_CreateOrUpdateForSubscription.json
+      - step: EventSubscriptions_DeleteForSubscription
+        exampleFile: ../examples/EventSubscriptions_DeleteForSubscription.json
+  - description: >-
+      Microsoft.EventGrid/eventSubscriptions
+      EventSubscriptions_CreateOrUpdateForResourceGroup
+    steps:
+      - step: EventSubscriptions_CreateOrUpdateForResourceGroup
+        exampleFile: ../examples/EventSubscriptions_CreateOrUpdateForResourceGroup.json
+      - step: EventSubscriptions_DeleteForSubscription
+        exampleFile: ../examples/EventSubscriptions_DeleteForSubscription.json

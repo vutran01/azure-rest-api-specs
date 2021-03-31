@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.RedHatOpenShift/openShiftClusters Creates or updates a OpenShift
+      cluster with the specified subscription, resource group and resource name.
+    steps:
+      - step: >-
+          Creates or updates a OpenShift cluster with the specified
+          subscription, resource group and resource name.
+        exampleFile: ../examples/OpenShiftClusters_CreateOrUpdate.json
+      - step: >-
+          Deletes a OpenShift cluster with the specified subscription, resource
+          group and resource name.
+        exampleFile: ../examples/OpenShiftClusters_Delete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      microsoft.alertsManagement/smartDetectorAlertRules Create or update a
+      Smart Detector alert rule
+    steps:
+      - step: Create or update a Smart Detector alert rule
+        exampleFile: ../examples/SmartDetectorAlertRule_CreateOrUpdate.json
+      - step: Delete a Smart Detector alert rule
+        exampleFile: ../examples/SmartDetectorAlertRule_Delete.json

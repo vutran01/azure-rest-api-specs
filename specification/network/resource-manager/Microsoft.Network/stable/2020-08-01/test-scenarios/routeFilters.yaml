@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/routeFilters RouteFilterCreate
+    steps:
+      - step: RouteFilterCreate
+        exampleFile: ../examples/RouteFilterCreate.json
+      - step: RouteFilterDelete
+        exampleFile: ../examples/RouteFilterDelete.json
+  - description: Microsoft.Network/routeFilters Create_routeFilters_filter1_Generated
+    steps:
+      - step: Create_routeFilters_filter1_Generated
+        exampleFile: ../examples/Create_routeFilters_filter1_Generated.json
+      - step: RouteFilterDelete
+        exampleFile: ../examples/RouteFilterDelete.json

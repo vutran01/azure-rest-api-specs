@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/p2svpnGateways P2SVpnGatewayPut
+    steps:
+      - step: P2SVpnGatewayPut
+        exampleFile: ../examples/P2SVpnGatewayPut.json
+      - step: P2SVpnGatewayDelete
+        exampleFile: ../examples/P2SVpnGatewayDelete.json

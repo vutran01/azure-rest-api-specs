@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Purview/accounts Accounts_CreateOrUpdate
+    steps:
+      - step: Accounts_CreateOrUpdate
+        exampleFile: ../examples/Accounts_CreateOrUpdate.json
+      - step: Accounts_Delete
+        exampleFile: ../examples/Accounts_Delete.json

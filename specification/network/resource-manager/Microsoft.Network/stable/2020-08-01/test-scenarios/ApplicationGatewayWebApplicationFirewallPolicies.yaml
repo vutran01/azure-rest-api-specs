@@ -1,0 +1,29 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies Creates
+      or updates a WAF policy within a resource group
+    steps:
+      - step: Creates or updates a WAF policy within a resource group
+        exampleFile: ../examples/WafPolicyCreateOrUpdate.json
+      - step: Deletes a WAF policy within a resource group
+        exampleFile: ../examples/WafPolicyDelete.json
+  - description: >-
+      Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies
+      Create_ApplicationGatewayWebApplicationFirewallPolicies_waf_1_Generated
+    steps:
+      - step: >-
+          Create_ApplicationGatewayWebApplicationFirewallPolicies_waf_1_Generated
+        exampleFile: >-
+          ../examples/Create_ApplicationGatewayWebApplicationFirewallPolicies_waf_1_Generated.json
+      - step: Deletes a WAF policy within a resource group
+        exampleFile: ../examples/WafPolicyDelete.json
+  - description: >-
+      Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies
+      Create_ApplicationGatewayWebApplicationFirewallPolicies_agp1_Generated
+    steps:
+      - step: Create_ApplicationGatewayWebApplicationFirewallPolicies_agp1_Generated
+        exampleFile: >-
+          ../examples/Create_ApplicationGatewayWebApplicationFirewallPolicies_agp1_Generated.json
+      - step: Deletes a WAF policy within a resource group
+        exampleFile: ../examples/WafPolicyDelete.json

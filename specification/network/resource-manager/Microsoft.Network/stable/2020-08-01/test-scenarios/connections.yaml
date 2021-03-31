@@ -1,0 +1,20 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/connections CreateVirtualNetworkGatewayConnection_S2S
+    steps:
+      - step: CreateVirtualNetworkGatewayConnection_S2S
+        exampleFile: ../examples/VirtualNetworkGatewayConnectionCreate.json
+      - step: DeleteVirtualNetworkGatewayConnection
+        exampleFile: ../examples/VirtualNetworkGatewayConnectionDelete.json
+  - description: Microsoft.Network/connections Create_connections_conn1_Generated
+    steps:
+      - step: Create_connections_conn1_Generated
+        exampleFile: ../examples/Create_connections_conn1_Generated.json
+      - step: DeleteVirtualNetworkGatewayConnection
+        exampleFile: ../examples/VirtualNetworkGatewayConnectionDelete.json
+  - description: Microsoft.Network/connections Create_connections_conn1to2_Generated
+    steps:
+      - step: Create_connections_conn1to2_Generated
+        exampleFile: ../examples/Create_connections_conn1to2_Generated.json
+      - step: DeleteVirtualNetworkGatewayConnection
+        exampleFile: ../examples/VirtualNetworkGatewayConnectionDelete.json

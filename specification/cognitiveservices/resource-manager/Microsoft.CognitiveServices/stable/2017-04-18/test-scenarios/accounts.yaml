@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.CognitiveServices/accounts Create Account Min
+    steps:
+      - step: Create Account Min
+        exampleFile: ../examples/CreateAccountMin.json
+      - step: Delete Account
+        exampleFile: ../examples/DeleteAccount.json

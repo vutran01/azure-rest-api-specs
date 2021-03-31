@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.SerialConsole/serialPorts Create a new serial port resource.
+    steps:
+      - step: Create a new serial port resource.
+        exampleFile: ../examples/CreateSerialPort.json
+      - step: Delete a serial port resource
+        exampleFile: ../examples/DeleteSerialPort.json

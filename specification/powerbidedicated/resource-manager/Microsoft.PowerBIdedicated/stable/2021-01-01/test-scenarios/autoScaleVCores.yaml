@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.PowerBIDedicated/autoScaleVCores Create auto scale v-core
+    steps:
+      - step: Create auto scale v-core
+        exampleFile: ../examples/createAutoScaleVCore.json
+      - step: Delete an auto scale v-core
+        exampleFile: ../examples/deleteAutoScaleVCore.json

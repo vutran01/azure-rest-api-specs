@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.KubernetesConfiguration/sourceControlConfigurations Create
+      Source Control Configuration
+    steps:
+      - step: Create Source Control Configuration
+        exampleFile: ../examples/CreateSourceControlConfiguration.json
+      - step: Delete Source Control Configuration
+        exampleFile: ../examples/DeleteSourceControlConfiguration.json

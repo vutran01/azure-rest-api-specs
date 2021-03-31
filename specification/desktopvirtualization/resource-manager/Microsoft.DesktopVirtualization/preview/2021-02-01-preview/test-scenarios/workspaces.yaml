@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DesktopVirtualization/workspaces Workspace_Create
+    steps:
+      - step: Workspace_Create
+        exampleFile: ../examples/Workspace_Create.json
+      - step: Workspace_Delete
+        exampleFile: ../examples/Workspace_Delete.json

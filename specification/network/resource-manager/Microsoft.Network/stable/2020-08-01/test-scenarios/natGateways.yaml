@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/natGateways Create nat gateway
+    steps:
+      - step: Create nat gateway
+        exampleFile: ../examples/NatGatewayCreateOrUpdate.json
+      - step: Delete nat gateway
+        exampleFile: ../examples/NatGatewayDelete.json

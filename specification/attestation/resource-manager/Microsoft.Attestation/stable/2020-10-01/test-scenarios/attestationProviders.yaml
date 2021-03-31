@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Attestation/attestationProviders AttestationProviders_Create
+    steps:
+      - step: AttestationProviders_Create
+        exampleFile: ../examples/Create_AttestationProvider.json
+      - step: AttestationProviders_Delete
+        exampleFile: ../examples/Delete_AttestationProvider.json

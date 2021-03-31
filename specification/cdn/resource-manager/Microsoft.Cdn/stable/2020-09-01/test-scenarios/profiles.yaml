@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Cdn/profiles Profiles_Create
+    steps:
+      - step: Profiles_Create
+        exampleFile: ../examples/Profiles_Create.json
+      - step: Profiles_Delete
+        exampleFile: ../examples/Profiles_Delete.json

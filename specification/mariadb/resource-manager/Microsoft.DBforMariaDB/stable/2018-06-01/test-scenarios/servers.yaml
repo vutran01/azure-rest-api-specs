@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DBForMariaDB/servers Create a new server
+    steps:
+      - step: Create a new server
+        exampleFile: ../examples/ServerCreate.json
+      - step: ServerDelete
+        exampleFile: ../examples/ServerDelete.json

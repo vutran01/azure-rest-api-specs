@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DesktopVirtualization/hostPools HostPool_Create
+    steps:
+      - step: HostPool_Create
+        exampleFile: ../examples/HostPool_Create.json
+      - step: HostPool_Delete
+        exampleFile: ../examples/HostPool_Delete.json

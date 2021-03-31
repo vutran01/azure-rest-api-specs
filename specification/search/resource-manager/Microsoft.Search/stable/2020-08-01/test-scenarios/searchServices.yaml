@@ -1,0 +1,32 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Search/searchServices SearchCreateOrUpdateService
+    steps:
+      - step: SearchCreateOrUpdateService
+        exampleFile: ../examples/SearchCreateOrUpdateService.json
+      - step: SearchDeleteService
+        exampleFile: ../examples/SearchDeleteService.json
+  - description: >-
+      Microsoft.Search/searchServices
+      SearchCreateOrUpdateServiceToAllowAccessFromPublicCustomIPs
+    steps:
+      - step: SearchCreateOrUpdateServiceToAllowAccessFromPublicCustomIPs
+        exampleFile: >-
+          ../examples/SearchCreateOrUpdateServiceToAllowAccessFromPublicCustomIPs.json
+      - step: SearchDeleteService
+        exampleFile: ../examples/SearchDeleteService.json
+  - description: >-
+      Microsoft.Search/searchServices
+      SearchCreateOrUpdateServiceToAllowAccessFromPrivateEndpoints
+    steps:
+      - step: SearchCreateOrUpdateServiceToAllowAccessFromPrivateEndpoints
+        exampleFile: >-
+          ../examples/SearchCreateOrUpdateServiceToAllowAccessFromPrivateEndpoints.json
+      - step: SearchDeleteService
+        exampleFile: ../examples/SearchDeleteService.json
+  - description: Microsoft.Search/searchServices SearchCreateOrUpdateServiceWithIdentity
+    steps:
+      - step: SearchCreateOrUpdateServiceWithIdentity
+        exampleFile: ../examples/SearchCreateOrUpdateServiceWithIdentity.json
+      - step: SearchDeleteService
+        exampleFile: ../examples/SearchDeleteService.json

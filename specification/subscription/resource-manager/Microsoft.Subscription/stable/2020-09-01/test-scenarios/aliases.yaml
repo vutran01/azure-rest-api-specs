@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Subscription/aliases CreateAlias
+    steps:
+      - step: CreateAlias
+        exampleFile: ../examples/createAlias.json
+      - step: DeleteAlias
+        exampleFile: ../examples/deleteAlias.json

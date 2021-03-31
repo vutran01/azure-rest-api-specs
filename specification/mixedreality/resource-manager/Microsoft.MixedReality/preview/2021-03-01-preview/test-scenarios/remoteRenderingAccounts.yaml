@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.MixedReality/remoteRenderingAccounts Create remote rendering
+      account
+    steps:
+      - step: Create remote rendering account
+        exampleFile: ../examples/remote-rendering/Put.json
+      - step: Delete remote rendering account
+        exampleFile: ../examples/remote-rendering/Delete.json

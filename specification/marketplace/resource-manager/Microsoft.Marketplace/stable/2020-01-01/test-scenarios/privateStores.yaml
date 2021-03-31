@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Marketplace/privateStores PrivateStores_update
+    steps:
+      - step: PrivateStores_update
+        exampleFile: ../examples/PrivateStores_update.json
+      - step: DeletePrivateStores
+        exampleFile: ../examples/DeletePrivateStore.json

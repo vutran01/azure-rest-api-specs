@@ -1,0 +1,20 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Peering/peerings Create a direct peering
+    steps:
+      - step: Create a direct peering
+        exampleFile: ../examples/CreateDirectPeering.json
+      - step: Delete a peering
+        exampleFile: ../examples/DeletePeering.json
+  - description: Microsoft.Peering/peerings Create an exchange peering
+    steps:
+      - step: Create an exchange peering
+        exampleFile: ../examples/CreateExchangePeering.json
+      - step: Delete a peering
+        exampleFile: ../examples/DeletePeering.json
+  - description: Microsoft.Peering/peerings Create a peering with exchange route server
+    steps:
+      - step: Create a peering with exchange route server
+        exampleFile: ../examples/CreatePeeringWithExchangeRouteServer.json
+      - step: Delete a peering
+        exampleFile: ../examples/DeletePeering.json

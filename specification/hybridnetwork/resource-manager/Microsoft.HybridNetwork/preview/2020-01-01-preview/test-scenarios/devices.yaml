@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HybridNetwork/devices Create or update device
+    steps:
+      - step: Create or update device
+        exampleFile: ../examples/DeviceCreate.json
+      - step: Delete device resource
+        exampleFile: ../examples/DeviceDelete.json

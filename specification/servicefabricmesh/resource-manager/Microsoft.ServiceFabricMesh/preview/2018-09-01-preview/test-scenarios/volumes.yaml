@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ServiceFabricMesh/volumes CreateOrUpdateVolume
+    steps:
+      - step: CreateOrUpdateVolume
+        exampleFile: ../examples/volumes/create_update.json
+      - step: DeleteVolume
+        exampleFile: ../examples/volumes/delete.json

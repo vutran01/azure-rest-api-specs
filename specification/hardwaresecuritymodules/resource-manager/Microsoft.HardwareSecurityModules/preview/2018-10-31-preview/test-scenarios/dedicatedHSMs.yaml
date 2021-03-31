@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.HardwareSecurityModules/dedicatedHSMs Create a new or update an
+      existing dedicated HSM
+    steps:
+      - step: Create a new or update an existing dedicated HSM
+        exampleFile: ../examples/DedicatedHsm_CreateOrUpdate.json
+      - step: Delete a dedicated HSM
+        exampleFile: ../examples/DedicatedHsm_Delete.json

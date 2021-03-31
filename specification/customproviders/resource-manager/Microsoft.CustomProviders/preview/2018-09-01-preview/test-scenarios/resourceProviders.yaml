@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.CustomProviders/resourceProviders Create or update the custom
+      resource provider
+    steps:
+      - step: Create or update the custom resource provider
+        exampleFile: ../examples/createOrUpdateCustomRP.json
+      - step: Delete a custom resource provider
+        exampleFile: ../examples/deleteCustomRP.json

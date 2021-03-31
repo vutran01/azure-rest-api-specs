@@ -1,0 +1,490 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/publicIPAddresses Create public IP address defaults
+    steps:
+      - step: Create public IP address defaults
+        exampleFile: ../examples/PublicIpAddressCreateDefaults.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses Create public IP address allocation
+      method
+    steps:
+      - step: Create public IP address allocation method
+        exampleFile: ../examples/PublicIpAddressCreateCustomizedValues.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: Microsoft.Network/publicIPAddresses Create public IP address DNS
+    steps:
+      - step: Create public IP address DNS
+        exampleFile: ../examples/PublicIpAddressCreateDns.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_appgw_ip_Generated
+    steps:
+      - step: Create_publicIPAddresses_appgw_ip_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_appgw_ip_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_appgw_ip_Generated_32
+    steps:
+      - step: Create_publicIPAddresses_appgw_ip_Generated_32
+        exampleFile: ../examples/Create_publicIPAddresses_appgw_ip_Generated_32.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_public_ip_Generated
+    steps:
+      - step: Create_publicIPAddresses_public_ip_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_public_ip_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_gwip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_gwip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_gwip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_gwip2_Generated
+    steps:
+      - step: Create_publicIPAddresses_gwip2_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_gwip2_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_gw1ip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_gw1ip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_gw1ip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_gw1ip2_Generated
+    steps:
+      - step: Create_publicIPAddresses_gw1ip2_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_gw1ip2_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_gw2ip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_gw2ip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_gw2ip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_gw2ip2_Generated
+    steps:
+      - step: Create_publicIPAddresses_gw2ip2_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_gw2ip2_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_myip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_myip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_myip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_myip1_Generated_829
+    steps:
+      - step: Create_publicIPAddresses_myip1_Generated_829
+        exampleFile: ../examples/Create_publicIPAddresses_myip1_Generated_829.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_myip2_Generated
+    steps:
+      - step: Create_publicIPAddresses_myip2_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_myip2_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: Microsoft.Network/publicIPAddresses Create_publicIPAddresses_ip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_ip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_ip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip-1_Generated
+    steps:
+      - step: Create_publicIPAddresses_ip-1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_ip-1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_gateway_ip_Generated
+    steps:
+      - step: Create_publicIPAddresses_gateway_ip_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_gateway_ip_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_myip1_Generated_949
+    steps:
+      - step: Create_publicIPAddresses_myip1_Generated_949
+        exampleFile: ../examples/Create_publicIPAddresses_myip1_Generated_949.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_1004
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_1004
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_1004.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_1026
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_1026
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_1026.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_pubip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pubip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_1075
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_1075
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_1075.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_1178
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_1178
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_1178.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip2_Generated
+    steps:
+      - step: Create_publicIPAddresses_pip2_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pip2_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_1232
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_1232
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_1232.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip1_Generated_1311
+    steps:
+      - step: Create_publicIPAddresses_ip1_Generated_1311
+        exampleFile: ../examples/Create_publicIPAddresses_ip1_Generated_1311.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip1_Generated_1384
+    steps:
+      - step: Create_publicIPAddresses_ip1_Generated_1384
+        exampleFile: ../examples/Create_publicIPAddresses_ip1_Generated_1384.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip1_Generated_1407
+    steps:
+      - step: Create_publicIPAddresses_ip1_Generated_1407
+        exampleFile: ../examples/Create_publicIPAddresses_ip1_Generated_1407.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicIP_Generated
+    steps:
+      - step: Create_publicIPAddresses_publicIP_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_publicIP_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip1_Generated_1470
+    steps:
+      - step: Create_publicIPAddresses_ip1_Generated_1470
+        exampleFile: ../examples/Create_publicIPAddresses_ip1_Generated_1470.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip4_Generated
+    steps:
+      - step: Create_publicIPAddresses_publicip4_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_publicip4_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip1_Generated
+    steps:
+      - step: Create_publicIPAddresses_publicip1_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_publicip1_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip2_Generated
+    steps:
+      - step: Create_publicIPAddresses_publicip2_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_publicip2_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip3_Generated
+    steps:
+      - step: Create_publicIPAddresses_publicip3_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_publicip3_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip4_Generated_1749
+    steps:
+      - step: Create_publicIPAddresses_publicip4_Generated_1749
+        exampleFile: ../examples/Create_publicIPAddresses_publicip4_Generated_1749.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip2_Generated
+    steps:
+      - step: Create_publicIPAddresses_pubip2_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pubip2_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip1_Generated_1936
+    steps:
+      - step: Create_publicIPAddresses_publicip1_Generated_1936
+        exampleFile: ../examples/Create_publicIPAddresses_publicip1_Generated_1936.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip2_Generated_1939
+    steps:
+      - step: Create_publicIPAddresses_publicip2_Generated_1939
+        exampleFile: ../examples/Create_publicIPAddresses_publicip2_Generated_1939.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip3_Generated_1942
+    steps:
+      - step: Create_publicIPAddresses_publicip3_Generated_1942
+        exampleFile: ../examples/Create_publicIPAddresses_publicip3_Generated_1942.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_2002
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_2002
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_2002.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip2_Generated_2005
+    steps:
+      - step: Create_publicIPAddresses_pip2_Generated_2005
+        exampleFile: ../examples/Create_publicIPAddresses_pip2_Generated_2005.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip1_Generated_2016
+    steps:
+      - step: Create_publicIPAddresses_publicip1_Generated_2016
+        exampleFile: ../examples/Create_publicIPAddresses_publicip1_Generated_2016.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_publicip2_Generated_2172
+    steps:
+      - step: Create_publicIPAddresses_publicip2_Generated_2172
+        exampleFile: ../examples/Create_publicIPAddresses_publicip2_Generated_2172.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubipdns_Generated
+    steps:
+      - step: Create_publicIPAddresses_pubipdns_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pubipdns_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubipnodns_Generated
+    steps:
+      - step: Create_publicIPAddresses_pubipnodns_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pubipnodns_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip1_Generated_2319
+    steps:
+      - step: Create_publicIPAddresses_pubip1_Generated_2319
+        exampleFile: ../examples/Create_publicIPAddresses_pubip1_Generated_2319.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip2_Generated_2321
+    steps:
+      - step: Create_publicIPAddresses_pubip2_Generated_2321
+        exampleFile: ../examples/Create_publicIPAddresses_pubip2_Generated_2321.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip3_Generated
+    steps:
+      - step: Create_publicIPAddresses_pubip3_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pubip3_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip4_Generated
+    steps:
+      - step: Create_publicIPAddresses_pubip4_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pubip4_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: Microsoft.Network/publicIPAddresses Create_publicIPAddresses_ip_Generated
+    steps:
+      - step: Create_publicIPAddresses_ip_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_ip_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip1_Generated_2426
+    steps:
+      - step: Create_publicIPAddresses_ip1_Generated_2426
+        exampleFile: ../examples/Create_publicIPAddresses_ip1_Generated_2426.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_2500
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_2500
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_2500.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip1_Generated_2541
+    steps:
+      - step: Create_publicIPAddresses_ip1_Generated_2541
+        exampleFile: ../examples/Create_publicIPAddresses_ip1_Generated_2541.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pip1_Generated_2593
+    steps:
+      - step: Create_publicIPAddresses_pip1_Generated_2593
+        exampleFile: ../examples/Create_publicIPAddresses_pip1_Generated_2593.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip1_Generated_2611
+    steps:
+      - step: Create_publicIPAddresses_pubip1_Generated_2611
+        exampleFile: ../examples/Create_publicIPAddresses_pubip1_Generated_2611.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip2_Generated_2614
+    steps:
+      - step: Create_publicIPAddresses_pubip2_Generated_2614
+        exampleFile: ../examples/Create_publicIPAddresses_pubip2_Generated_2614.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip3_Generated_2617
+    steps:
+      - step: Create_publicIPAddresses_pubip3_Generated_2617
+        exampleFile: ../examples/Create_publicIPAddresses_pubip3_Generated_2617.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_ip_Generated_2657
+    steps:
+      - step: Create_publicIPAddresses_ip_Generated_2657
+        exampleFile: ../examples/Create_publicIPAddresses_ip_Generated_2657.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_vgw1-pip_Generated
+    steps:
+      - step: Create_publicIPAddresses_vgw1-pip_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_vgw1-pip_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json
+  - description: >-
+      Microsoft.Network/publicIPAddresses
+      Create_publicIPAddresses_pubip_Generated
+    steps:
+      - step: Create_publicIPAddresses_pubip_Generated
+        exampleFile: ../examples/Create_publicIPAddresses_pubip_Generated.json
+      - step: Delete public IP address
+        exampleFile: ../examples/PublicIpAddressDelete.json

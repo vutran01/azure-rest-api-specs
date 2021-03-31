@@ -1,0 +1,6 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Backup.Admin/backupLocations Update new backup location.
+    steps:
+      - step: Update new backup location.
+        exampleFile: ../examples/BackupLocations/Update.json

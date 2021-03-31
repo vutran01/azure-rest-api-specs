@@ -1,0 +1,13 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/deviceSecurityGroups Create or update a device security
+      group for the specified IoT hub resource
+    steps:
+      - step: >-
+          Create or update a device security group for the specified IoT hub
+          resource
+        exampleFile: ../examples/DeviceSecurityGroups/PutDeviceSecurityGroups_example.json
+      - step: Delete a device security group for the specified IoT Hub resource
+        exampleFile: >-
+          ../examples/DeviceSecurityGroups/DeleteDeviceSecurityGroups_example.json

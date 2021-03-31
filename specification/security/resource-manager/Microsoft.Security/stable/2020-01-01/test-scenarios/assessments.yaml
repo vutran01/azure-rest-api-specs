@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/assessments Create security recommendation task on a
+      resource
+    steps:
+      - step: Create security recommendation task on a resource
+        exampleFile: ../examples/Assessments/PutAssessment_example.json
+      - step: Delete a security recommendation task on a resource
+        exampleFile: ../examples/Assessments/DeleteAssessment_example.json

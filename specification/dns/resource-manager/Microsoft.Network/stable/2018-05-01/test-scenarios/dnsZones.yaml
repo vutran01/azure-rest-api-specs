@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/dnsZones Create zone
+    steps:
+      - step: Create zone
+        exampleFile: ../examples/CreateOrUpdateZone.json
+      - step: Delete zone
+        exampleFile: ../examples/DeleteZone.json

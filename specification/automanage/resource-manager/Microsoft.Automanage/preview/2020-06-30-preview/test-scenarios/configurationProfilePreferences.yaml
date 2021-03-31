@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Automanage/configurationProfilePreferences Create or update
+      configuration profile preference
+    steps:
+      - step: Create or update configuration profile preference
+        exampleFile: ../examples/createOrUpdateConfigurationProfilePreference.json
+      - step: Delete a configuration profile preference
+        exampleFile: ../examples/deleteConfigurationProfilePreference.json

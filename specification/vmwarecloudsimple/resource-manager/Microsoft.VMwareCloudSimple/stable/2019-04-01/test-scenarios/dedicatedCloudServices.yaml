@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.VMwareCloudSimple/dedicatedCloudServices
+      CreateDedicatedCloudService
+    steps:
+      - step: CreateDedicatedCloudService
+        exampleFile: ../examples/CreateDedicatedCloudService.json
+      - step: DeleteDedicatedCloudService
+        exampleFile: ../examples/DeleteDedicatedCloudService.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/virtualWans VirtualWANCreate
+    steps:
+      - step: VirtualWANCreate
+        exampleFile: ../examples/VirtualWANPut.json
+      - step: VirtualWANDelete
+        exampleFile: ../examples/VirtualWANDelete.json

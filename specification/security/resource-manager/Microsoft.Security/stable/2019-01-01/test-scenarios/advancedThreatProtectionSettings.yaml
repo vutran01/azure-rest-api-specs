@@ -1,0 +1,11 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/advancedThreatProtectionSettings Creates or updates the
+      Advanced Threat Protection settings on a specified resource.
+    steps:
+      - step: >-
+          Creates or updates the Advanced Threat Protection settings on a
+          specified resource.
+        exampleFile: >-
+          ../examples/AdvancedThreatProtection/PutAdvancedThreatProtectionSettings_example.json

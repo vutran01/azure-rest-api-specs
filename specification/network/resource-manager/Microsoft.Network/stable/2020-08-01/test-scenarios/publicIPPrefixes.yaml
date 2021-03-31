@@ -1,0 +1,56 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/publicIPPrefixes Create public IP prefix defaults
+    steps:
+      - step: Create public IP prefix defaults
+        exampleFile: ../examples/PublicIpPrefixCreateDefaults.json
+      - step: Delete public IP prefix
+        exampleFile: ../examples/PublicIpPrefixDelete.json
+  - description: >-
+      Microsoft.Network/publicIPPrefixes Create public IP prefix allocation
+      method
+    steps:
+      - step: Create public IP prefix allocation method
+        exampleFile: ../examples/PublicIpPrefixCreateCustomizedValues.json
+      - step: Delete public IP prefix
+        exampleFile: ../examples/PublicIpPrefixDelete.json
+  - description: >-
+      Microsoft.Network/publicIPPrefixes
+      Create_publicIPPrefixes_prefix1_Generated
+    steps:
+      - step: Create_publicIPPrefixes_prefix1_Generated
+        exampleFile: ../examples/Create_publicIPPrefixes_prefix1_Generated.json
+      - step: Delete public IP prefix
+        exampleFile: ../examples/PublicIpPrefixDelete.json
+  - description: >-
+      Microsoft.Network/publicIPPrefixes
+      Create_publicIPPrefixes_prefix1_Generated_2302
+    steps:
+      - step: Create_publicIPPrefixes_prefix1_Generated_2302
+        exampleFile: ../examples/Create_publicIPPrefixes_prefix1_Generated_2302.json
+      - step: Delete public IP prefix
+        exampleFile: ../examples/PublicIpPrefixDelete.json
+  - description: >-
+      Microsoft.Network/publicIPPrefixes
+      Create_publicIPPrefixes_prefix1_2310_Generated
+    steps:
+      - step: Create_publicIPPrefixes_prefix1_2310_Generated
+        exampleFile: ../examples/Create_publicIPPrefixes_prefix1_2310_Generated.json
+      - step: Delete public IP prefix
+        exampleFile: ../examples/PublicIpPrefixDelete.json
+  - description: >-
+      Microsoft.Network/publicIPPrefixes
+      Create_publicIPPrefixes_public_ip_prefix_0_Generated
+    steps:
+      - step: Create_publicIPPrefixes_public_ip_prefix_0_Generated
+        exampleFile: ../examples/Create_publicIPPrefixes_public_ip_prefix_0_Generated.json
+      - step: Delete public IP prefix
+        exampleFile: ../examples/PublicIpPrefixDelete.json
+  - description: >-
+      Microsoft.Network/publicIPPrefixes
+      Create_publicIPPrefixes_public_ip_prefix_2_Generated
+    steps:
+      - step: Create_publicIPPrefixes_public_ip_prefix_2_Generated
+        exampleFile: ../examples/Create_publicIPPrefixes_public_ip_prefix_2_Generated.json
+      - step: Delete public IP prefix
+        exampleFile: ../examples/PublicIpPrefixDelete.json

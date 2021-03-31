@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/ddosCustomPolicies Create DDoS custom policy
+    steps:
+      - step: Create DDoS custom policy
+        exampleFile: ../examples/DdosCustomPolicyCreate.json
+      - step: Delete DDoS custom policy
+        exampleFile: ../examples/DdosCustomPolicyDelete.json

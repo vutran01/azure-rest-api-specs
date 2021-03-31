@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DeploymentManager/rollouts Create or update rollout
+    steps:
+      - step: Create or update rollout
+        exampleFile: ../examples/rollout_createorupdate.json
+      - step: Delete rollout
+        exampleFile: ../examples/rollout_delete.json

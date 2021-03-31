@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/firewallPolicies Create FirewallPolicy
+    steps:
+      - step: Create FirewallPolicy
+        exampleFile: ../examples/FirewallPolicyPut.json
+      - step: Delete Firewall Policy
+        exampleFile: ../examples/FirewallPolicyDelete.json

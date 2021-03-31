@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/workspaceSettings Create a workspace setting data for
+      subscription
+    steps:
+      - step: Create a workspace setting data for subscription
+        exampleFile: ../examples/WorkspaceSettings/CreateWorkspaceSetting_example.json
+      - step: Delete a workspace setting data for resource group
+        exampleFile: ../examples/WorkspaceSettings/DeleteWorkspaceSetting_example.json

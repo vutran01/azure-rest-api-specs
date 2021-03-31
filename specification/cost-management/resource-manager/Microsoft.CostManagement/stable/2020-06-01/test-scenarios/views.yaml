@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.CostManagement/views CreateOrUpdatePrivateView
+    steps:
+      - step: CreateOrUpdatePrivateView
+        exampleFile: ../examples/PrivateViewCreateOrUpdate.json
+      - step: DeletePrivateView
+        exampleFile: ../examples/PrivateViewDelete.json

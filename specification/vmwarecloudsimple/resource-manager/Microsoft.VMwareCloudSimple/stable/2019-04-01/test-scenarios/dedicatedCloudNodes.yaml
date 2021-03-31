@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.VMwareCloudSimple/dedicatedCloudNodes CreateDedicatedCloudNode
+    steps:
+      - step: CreateDedicatedCloudNode
+        exampleFile: ../examples/CreateDedicatedCloudNode.json
+      - step: DeleteDedicatedCloudNode
+        exampleFile: ../examples/DeleteDedicatedCloudNode.json

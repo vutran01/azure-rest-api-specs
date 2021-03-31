@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/frontDoors Create or update specific Front Door
+    steps:
+      - step: Create or update specific Front Door
+        exampleFile: ../examples/FrontdoorCreate.json
+      - step: Delete Front Door
+        exampleFile: ../examples/FrontdoorDelete.json

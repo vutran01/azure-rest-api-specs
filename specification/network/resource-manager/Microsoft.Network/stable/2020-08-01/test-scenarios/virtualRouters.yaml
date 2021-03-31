@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/virtualRouters Create VirtualRouter
+    steps:
+      - step: Create VirtualRouter
+        exampleFile: ../examples/VirtualRouterPut.json
+      - step: Delete VirtualRouter
+        exampleFile: ../examples/VirtualRouterDelete.json

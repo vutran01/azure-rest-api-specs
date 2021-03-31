@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Insights/webtests webTestCreate
+    steps:
+      - step: webTestCreate
+        exampleFile: ../examples/WebTestCreate.json
+      - step: webTestDelete
+        exampleFile: ../examples/WebTestDelete.json
+  - description: Microsoft.Insights/webtests webTestUpdate
+    steps:
+      - step: webTestUpdate
+        exampleFile: ../examples/WebTestUpdate.json
+      - step: webTestDelete
+        exampleFile: ../examples/WebTestDelete.json

@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.PolicyInsights/attestations Create attestation at subscription
+      scope
+    steps:
+      - step: Create attestation at subscription scope
+        exampleFile: ../examples/Attestations_CreateSubscriptionScope.json
+      - step: Delete attestation at subscription scope
+        exampleFile: ../examples/Attestations_DeleteSubscriptionScope.json
+  - description: >-
+      Microsoft.PolicyInsights/attestations Create attestation at subscription
+      scope with all properties
+    steps:
+      - step: Create attestation at subscription scope with all properties
+        exampleFile: ../examples/Attestations_CreateSubscriptionScope_AllProperties.json
+      - step: Delete attestation at subscription scope
+        exampleFile: ../examples/Attestations_DeleteSubscriptionScope.json

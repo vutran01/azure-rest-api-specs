@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ServiceBus/namespaces NameSpaceCreate
+    steps:
+      - step: NameSpaceCreate
+        exampleFile: ../examples/NameSpaces/SBNameSpaceCreate.json
+      - step: NameSpaceDelete
+        exampleFile: ../examples/NameSpaces/SBNameSpaceDelete.json

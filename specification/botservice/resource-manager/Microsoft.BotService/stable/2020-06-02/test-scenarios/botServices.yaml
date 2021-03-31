@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.BotService/botServices Create Bot
+    steps:
+      - step: Create Bot
+        exampleFile: ../examples/CreateBot.json
+      - step: Delete Bot
+        exampleFile: ../examples/DeleteBot.json

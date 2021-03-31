@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/customIpPrefixes Create custom IP prefix allocation
+      method
+    steps:
+      - step: Create custom IP prefix allocation method
+        exampleFile: ../examples/CustomIpPrefixCreateCustomizedValues.json
+      - step: Delete custom IP prefix
+        exampleFile: ../examples/CustomIpPrefixDelete.json

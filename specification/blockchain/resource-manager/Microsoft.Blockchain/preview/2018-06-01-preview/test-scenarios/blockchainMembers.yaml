@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Blockchain/blockchainMembers BlockchainMembers_Create
+    steps:
+      - step: BlockchainMembers_Create
+        exampleFile: ../examples/BlockchainMembers_Create.json
+      - step: BlockchainMembers_Delete
+        exampleFile: ../examples/BlockchainMembers_Delete.json

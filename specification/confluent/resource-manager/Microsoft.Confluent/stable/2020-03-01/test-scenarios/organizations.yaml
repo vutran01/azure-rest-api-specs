@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Confluent/organizations Organization_Create
+    steps:
+      - step: Organization_Create
+        exampleFile: ../examples/Organization_Create.json
+      - step: Confluent_Delete
+        exampleFile: ../examples/Organization_Delete.json

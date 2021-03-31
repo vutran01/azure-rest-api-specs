@@ -1,0 +1,19 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/securityPartnerProviders Create Security Partner
+      Provider
+    steps:
+      - step: Create Security Partner Provider
+        exampleFile: ../examples/SecurityPartnerProviderPut.json
+      - step: Delete Security Partner Provider
+        exampleFile: ../examples/SecurityPartnerProviderDelete.json
+  - description: >-
+      Microsoft.Network/securityPartnerProviders
+      Create_securityPartnerProviders_clisecuritypartnerprovider_Generated
+    steps:
+      - step: Create_securityPartnerProviders_clisecuritypartnerprovider_Generated
+        exampleFile: >-
+          ../examples/Create_securityPartnerProviders_clisecuritypartnerprovider_Generated.json
+      - step: Delete Security Partner Provider
+        exampleFile: ../examples/SecurityPartnerProviderDelete.json

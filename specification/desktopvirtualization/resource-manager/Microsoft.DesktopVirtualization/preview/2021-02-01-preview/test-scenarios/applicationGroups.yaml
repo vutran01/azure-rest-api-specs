@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DesktopVirtualization/applicationGroups ApplicationGroup_Create
+    steps:
+      - step: ApplicationGroup_Create
+        exampleFile: ../examples/ApplicationGroup_Create.json
+      - step: ApplicationGroup_Delete
+        exampleFile: ../examples/ApplicationGroup_Delete.json

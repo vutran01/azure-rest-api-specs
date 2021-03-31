@@ -1,0 +1,74 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.HDInsight/clusters Create Hadoop on Linux cluster with SSH
+      password
+    steps:
+      - step: Create Hadoop on Linux cluster with SSH password
+        exampleFile: ../examples/CreateLinuxHadoopSshPassword.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: >-
+      Microsoft.HDInsight/clusters Create Hadoop on Linux cluster with SSH
+      public key
+    steps:
+      - step: Create Hadoop on Linux cluster with SSH public key
+        exampleFile: ../examples/CreateLinuxHadoopSshPublicKey.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: >-
+      Microsoft.HDInsight/clusters Create Spark on Linux Cluster with SSH
+      password
+    steps:
+      - step: Create Spark on Linux Cluster with SSH password
+        exampleFile: ../examples/CreateLinuxSparkSshPassword.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: >-
+      Microsoft.HDInsight/clusters Create Hadoop cluster with Azure Data Lake
+      Storage Gen 2
+    steps:
+      - step: Create Hadoop cluster with Azure Data Lake Storage Gen 2
+        exampleFile: ../examples/CreateLinuxHadoopAdlsGen2.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: >-
+      Microsoft.HDInsight/clusters Create HDInsight cluster with Autoscale
+      configuration
+    steps:
+      - step: Create HDInsight cluster with Autoscale configuration
+        exampleFile: ../examples/CreateHDInsightClusterWithAutoscaleConfig.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: Microsoft.HDInsight/clusters Create Kafka cluster with Kafka Rest Proxy
+    steps:
+      - step: Create Kafka cluster with Kafka Rest Proxy
+        exampleFile: ../examples/CreateKafkaClusterWithKafkaRestProxy.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: Microsoft.HDInsight/clusters Create cluster with TLS 1.2
+    steps:
+      - step: Create cluster with TLS 1.2
+        exampleFile: ../examples/CreateHDInsightClusterWithTLS12.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: Microsoft.HDInsight/clusters Create cluster with encryption in transit
+    steps:
+      - step: Create cluster with encryption in transit
+        exampleFile: ../examples/CreateHDInsightClusterWithEncryptionInTransit.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: Microsoft.HDInsight/clusters Create cluster with encryption at host
+    steps:
+      - step: Create cluster with encryption at host
+        exampleFile: ../examples/CreateHDInsightClusterWithEncryptionAtHost.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json
+  - description: >-
+      Microsoft.HDInsight/clusters Create cluster with compute isolation
+      properties
+    steps:
+      - step: Create cluster with compute isolation properties
+        exampleFile: ../examples/CreateHDInsightClusterWithComputeIsolationProperties.json
+      - step: Delete Hadoop on Linux cluster
+        exampleFile: ../examples/DeleteLinuxHadoopCluster.json

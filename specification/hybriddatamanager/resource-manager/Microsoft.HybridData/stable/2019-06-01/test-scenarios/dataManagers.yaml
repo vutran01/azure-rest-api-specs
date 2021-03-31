@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HybridData/dataManagers DataManagers_CreatePUT41
+    steps:
+      - step: DataManagers_CreatePUT41
+        exampleFile: ../examples/DataManagers_Create-PUT-example-41.json
+      - step: DataManagers_DeleteDELETE41
+        exampleFile: ../examples/DataManagers_Delete-DELETE-example-41.json

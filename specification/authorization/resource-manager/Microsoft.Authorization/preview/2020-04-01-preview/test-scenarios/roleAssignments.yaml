@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Authorization/roleAssignments Create role assignment
+    steps:
+      - step: Create role assignment
+        exampleFile: ../examples/PutRoleAssignment.json
+      - step: Delete role assignment by name
+        exampleFile: ../examples/DeleteRoleAssignmentByName.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Synapse/privateLinkHubs Create or update a privateLinkHub
+    steps:
+      - step: Create or update a privateLinkHub
+        exampleFile: ../examples/CreateOrUpdatePrivateLinkHub.json
+      - step: Delete a privateLinkHub
+        exampleFile: ../examples/DeletePrivateLinkHub.json

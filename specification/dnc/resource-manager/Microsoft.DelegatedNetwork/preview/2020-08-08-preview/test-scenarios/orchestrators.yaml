@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DelegatedNetwork/orchestrators Create orchestrator instance
+    steps:
+      - step: Create orchestrator instance
+        exampleFile: ../examples/putOrchestrator.json
+      - step: Delete Orchestrator Instance
+        exampleFile: ../examples/deleteOrchestrator.json

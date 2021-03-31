@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ExtendedLocation/customLocations Create/Update Custom Location
+    steps:
+      - step: Create/Update Custom Location
+        exampleFile: ../examples/CustomLocationsCreate_Update.json
+      - step: Delete Custom Location
+        exampleFile: ../examples/CustomLocationsDelete.json

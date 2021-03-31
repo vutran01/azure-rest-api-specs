@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AutonomousDevelopmentPlatform/accounts Put account
+    steps:
+      - step: Put account
+        exampleFile: ../examples/AdpAccountPut.json
+      - step: Delete account
+        exampleFile: ../examples/AdpAccountDelete.json

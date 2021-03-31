@@ -1,0 +1,24 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/serviceEndpointPolicies Create service endpoint policy
+    steps:
+      - step: Create service endpoint policy
+        exampleFile: ../examples/ServiceEndpointPolicyCreate.json
+      - step: Delete service endpoint policy
+        exampleFile: ../examples/ServiceEndpointPolicyDelete.json
+  - description: >-
+      Microsoft.Network/serviceEndpointPolicies
+      Create_serviceEndpointPolicies_policy1_Generated
+    steps:
+      - step: Create_serviceEndpointPolicies_policy1_Generated
+        exampleFile: ../examples/Create_serviceEndpointPolicies_policy1_Generated.json
+      - step: Delete service endpoint policy
+        exampleFile: ../examples/ServiceEndpointPolicyDelete.json
+  - description: >-
+      Microsoft.Network/serviceEndpointPolicies
+      Create_serviceEndpointPolicies_policy1_2375_Generated
+    steps:
+      - step: Create_serviceEndpointPolicies_policy1_2375_Generated
+        exampleFile: ../examples/Create_serviceEndpointPolicies_policy1_2375_Generated.json
+      - step: Delete service endpoint policy
+        exampleFile: ../examples/ServiceEndpointPolicyDelete.json

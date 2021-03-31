@@ -1,0 +1,96 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/virtualNetworkGateways UpdateVirtualNetworkGateway
+    steps:
+      - step: UpdateVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayUpdate.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gw1_Generated
+    steps:
+      - step: Create_virtualNetworkGateways_gw1_Generated
+        exampleFile: ../examples/Create_virtualNetworkGateways_gw1_Generated.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_vgw1_Generated
+    steps:
+      - step: Create_virtualNetworkGateways_vgw1_Generated
+        exampleFile: ../examples/Create_virtualNetworkGateways_vgw1_Generated.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_vgw2_Generated
+    steps:
+      - step: Create_virtualNetworkGateways_vgw2_Generated
+        exampleFile: ../examples/Create_virtualNetworkGateways_vgw2_Generated.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gw1_Generated_2503
+    steps:
+      - step: Create_virtualNetworkGateways_gw1_Generated_2503
+        exampleFile: ../examples/Create_virtualNetworkGateways_gw1_Generated_2503.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gateway1_Generated
+    steps:
+      - step: Create_virtualNetworkGateways_gateway1_Generated
+        exampleFile: ../examples/Create_virtualNetworkGateways_gateway1_Generated.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gw1_Generated_2596
+    steps:
+      - step: Create_virtualNetworkGateways_gw1_Generated_2596
+        exampleFile: ../examples/Create_virtualNetworkGateways_gw1_Generated_2596.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gateway1_Generated_2627
+    steps:
+      - step: Create_virtualNetworkGateways_gateway1_Generated_2627
+        exampleFile: ../examples/Create_virtualNetworkGateways_gateway1_Generated_2627.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gateway2_Generated
+    steps:
+      - step: Create_virtualNetworkGateways_gateway2_Generated
+        exampleFile: ../examples/Create_virtualNetworkGateways_gateway2_Generated.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gateway3_Generated
+    steps:
+      - step: Create_virtualNetworkGateways_gateway3_Generated
+        exampleFile: ../examples/Create_virtualNetworkGateways_gateway3_Generated.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_gw_Generated
+    steps:
+      - step: Create_virtualNetworkGateways_gw_Generated
+        exampleFile: ../examples/Create_virtualNetworkGateways_gw_Generated.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json
+  - description: >-
+      Microsoft.Network/virtualNetworkGateways
+      Create_virtualNetworkGateways_vgw1_Generated_2788
+    steps:
+      - step: Create_virtualNetworkGateways_vgw1_Generated_2788
+        exampleFile: ../examples/Create_virtualNetworkGateways_vgw1_Generated_2788.json
+      - step: DeleteVirtualNetworkGateway
+        exampleFile: ../examples/VirtualNetworkGatewayDelete.json

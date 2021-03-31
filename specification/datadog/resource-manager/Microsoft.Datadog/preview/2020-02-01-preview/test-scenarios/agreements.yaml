@@ -1,0 +1,6 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Datadog/agreements MarketplaceAgreements_CreateOrUpdate
+    steps:
+      - step: MarketplaceAgreements_CreateOrUpdate
+        exampleFile: ../examples/MarketplaceAgreements_Create.json

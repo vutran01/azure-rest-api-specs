@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.StreamAnalytics/clusters Create a new cluster
+    steps:
+      - step: Create a new cluster
+        exampleFile: ../examples/Cluster_Create.json
+      - step: Delete a cluster
+        exampleFile: ../examples/Cluster_Delete.json

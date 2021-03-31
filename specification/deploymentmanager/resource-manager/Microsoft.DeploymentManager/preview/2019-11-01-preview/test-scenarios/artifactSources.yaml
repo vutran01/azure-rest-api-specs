@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DeploymentManager/artifactSources Create artifact source
+    steps:
+      - step: Create artifact source
+        exampleFile: ../examples/artifactsource_createorupdate.json
+      - step: Delete artifact source
+        exampleFile: ../examples/artifactsource_delete.json
+  - description: >-
+      Microsoft.DeploymentManager/artifactSources Create artifact source with
+      artifact root, an offset into the storage container
+    steps:
+      - step: >-
+          Create artifact source with artifact root, an offset into the storage
+          container
+        exampleFile: ../examples/artifactsource_createorupdate_artifactroot.json
+      - step: Delete artifact source
+        exampleFile: ../examples/artifactsource_delete.json

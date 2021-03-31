@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Devices/IotHubs IotHubResource_CreateOrUpdate
+    steps:
+      - step: IotHubResource_CreateOrUpdate
+        exampleFile: ../examples/iothub_createOrUpdate.json
+      - step: IotHubResource_Delete
+        exampleFile: ../examples/iothub_delete.json

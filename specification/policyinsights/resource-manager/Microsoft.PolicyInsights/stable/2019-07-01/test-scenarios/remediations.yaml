@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.PolicyInsights/remediations Create remediation at management
+      group scope
+    steps:
+      - step: Create remediation at management group scope
+        exampleFile: ../examples/Remediations_CreateManagementGroupScope.json
+      - step: Delete remediation at management group scope
+        exampleFile: ../examples/Remediations_DeleteManagementGroupScope.json

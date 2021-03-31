@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Sql/instancePools Create an instance pool with all properties.
+    steps:
+      - step: Create an instance pool with all properties.
+        exampleFile: ../examples/CreateOrUpdateInstancePoolMax.json
+      - step: Delete an instance pool
+        exampleFile: ../examples/DeleteInstancePool.json
+  - description: Microsoft.Sql/instancePools Create an instance pool with min properties.
+    steps:
+      - step: Create an instance pool with min properties.
+        exampleFile: ../examples/CreateOrUpdateInstancePoolMin.json
+      - step: Delete an instance pool
+        exampleFile: ../examples/DeleteInstancePool.json

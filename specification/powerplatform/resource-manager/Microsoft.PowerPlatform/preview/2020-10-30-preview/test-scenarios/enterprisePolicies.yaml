@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.PowerPlatform/enterprisePolicies Create or update
+      EnterprisePolicy
+    steps:
+      - step: Create or update EnterprisePolicy
+        exampleFile: ../examples/createOrUpdateEnterprisePolicy.json
+      - step: Delete an EnterprisePolicy
+        exampleFile: ../examples/deleteEnterprisePolicy.json

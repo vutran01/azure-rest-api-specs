@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Logic/workflows Create or update a workflow
+    steps:
+      - step: Create or update a workflow
+        exampleFile: ../examples/Workflows_CreateOrUpdate.json
+      - step: Delete a workflow
+        exampleFile: ../examples/Workflows_Delete.json

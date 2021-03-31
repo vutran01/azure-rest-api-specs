@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/onPremiseIotSensors Create or update on-premise IoT
+      sensor
+    steps:
+      - step: Create or update on-premise IoT sensor
+        exampleFile: ../examples/OnPremiseIotSensors/Put.json
+      - step: Delete on-premise IoT sensor
+        exampleFile: ../examples/OnPremiseIotSensors/Delete.json

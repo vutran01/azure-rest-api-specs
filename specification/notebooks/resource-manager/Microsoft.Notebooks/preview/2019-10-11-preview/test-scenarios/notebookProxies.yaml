@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Notebooks/notebookProxies Create Notebook Proxy
+    steps:
+      - step: Create Notebook Proxy
+        exampleFile: ../examples/NBResourceCreate.json
+      - step: Delete Notebook Proxy
+        exampleFile: ../examples/NBResourceDelete.json

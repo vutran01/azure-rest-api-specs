@@ -1,0 +1,20 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Blueprint/blueprints SubscriptionBlueprint
+    steps:
+      - step: SubscriptionBlueprint
+        exampleFile: ../examples/subscriptionBPDef/Blueprint_Create.json
+      - step: SubscriptionBlueprint
+        exampleFile: ../examples/subscriptionBPDef/Blueprint_Delete.json
+  - description: Microsoft.Blueprint/blueprints ManagementGroupBlueprint
+    steps:
+      - step: ManagementGroupBlueprint
+        exampleFile: ../examples/managementGroupBPDef/Blueprint_Create.json
+      - step: SubscriptionBlueprint
+        exampleFile: ../examples/subscriptionBPDef/Blueprint_Delete.json
+  - description: Microsoft.Blueprint/blueprints ResourceGroupWithTags
+    steps:
+      - step: ResourceGroupWithTags
+        exampleFile: ../examples/ResourceGroupWithTags.json
+      - step: SubscriptionBlueprint
+        exampleFile: ../examples/subscriptionBPDef/Blueprint_Delete.json

@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ChangeAnalysis/profile ConfigurationProfile_Create
+    steps:
+      - step: ConfigurationProfile_Create
+        exampleFile: ../examples/ConfigurationProfileCreate.json
+      - step: ConfigurationProfile_Delete
+        exampleFile: ../examples/ConfigurationProfileDelete.json
+  - description: Microsoft.ChangeAnalysis/profile ConfigurationProfile_CreateWithIdentity
+    steps:
+      - step: ConfigurationProfile_CreateWithIdentity
+        exampleFile: ../examples/ConfigurationProfileCreateWithIdentity.json
+      - step: ConfigurationProfile_Delete
+        exampleFile: ../examples/ConfigurationProfileDelete.json

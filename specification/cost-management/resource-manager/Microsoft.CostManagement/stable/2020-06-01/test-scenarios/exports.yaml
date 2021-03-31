@@ -1,0 +1,38 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.CostManagement/exports ExportCreateOrUpdateBySubscription
+    steps:
+      - step: ExportCreateOrUpdateBySubscription
+        exampleFile: ../examples/ExportCreateOrUpdateBySubscription.json
+      - step: ExportDeleteBySubscription
+        exampleFile: ../examples/ExportDeleteBySubscription.json
+  - description: Microsoft.CostManagement/exports ExportCreateOrUpdateByResourceGroup
+    steps:
+      - step: ExportCreateOrUpdateByResourceGroup
+        exampleFile: ../examples/ExportCreateOrUpdateByResourceGroup.json
+      - step: ExportDeleteBySubscription
+        exampleFile: ../examples/ExportDeleteBySubscription.json
+  - description: Microsoft.CostManagement/exports ExportCreateOrUpdateByBillingAccount
+    steps:
+      - step: ExportCreateOrUpdateByBillingAccount
+        exampleFile: ../examples/ExportCreateOrUpdateByBillingAccount.json
+      - step: ExportDeleteBySubscription
+        exampleFile: ../examples/ExportDeleteBySubscription.json
+  - description: Microsoft.CostManagement/exports ExportCreateOrUpdateByDepartment
+    steps:
+      - step: ExportCreateOrUpdateByDepartment
+        exampleFile: ../examples/ExportCreateOrUpdateByDepartment.json
+      - step: ExportDeleteBySubscription
+        exampleFile: ../examples/ExportDeleteBySubscription.json
+  - description: Microsoft.CostManagement/exports ExportCreateOrUpdateByEnrollmentAccount
+    steps:
+      - step: ExportCreateOrUpdateByEnrollmentAccount
+        exampleFile: ../examples/ExportCreateOrUpdateByEnrollmentAccount.json
+      - step: ExportDeleteBySubscription
+        exampleFile: ../examples/ExportDeleteBySubscription.json
+  - description: Microsoft.CostManagement/exports ExportCreateOrUpdateByManagementGroup
+    steps:
+      - step: ExportCreateOrUpdateByManagementGroup
+        exampleFile: ../examples/ExportCreateOrUpdateByManagementGroup.json
+      - step: ExportDeleteBySubscription
+        exampleFile: ../examples/ExportDeleteBySubscription.json

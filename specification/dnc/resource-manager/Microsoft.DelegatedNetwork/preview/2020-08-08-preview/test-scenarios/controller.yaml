@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DelegatedNetwork/controller Create controller
+    steps:
+      - step: Create controller
+        exampleFile: ../examples/putController.json
+      - step: Delete controller
+        exampleFile: ../examples/deleteController.json

@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.DeploymentManager/serviceTopologies Create a topology with
+      Artifact Source
+    steps:
+      - step: Create a topology with Artifact Source
+        exampleFile: ../examples/servicetopology_createorupdate.json
+      - step: Delete topology
+        exampleFile: ../examples/servicetopology_delete.json
+  - description: >-
+      Microsoft.DeploymentManager/serviceTopologies Create a topology without
+      Artifact Source
+    steps:
+      - step: Create a topology without Artifact Source
+        exampleFile: ../examples/servicetopology_createorupdate_noartifactsource.json
+      - step: Delete topology
+        exampleFile: ../examples/servicetopology_delete.json

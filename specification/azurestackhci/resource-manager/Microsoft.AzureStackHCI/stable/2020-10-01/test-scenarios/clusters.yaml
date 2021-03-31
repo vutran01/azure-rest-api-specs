@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AzureStackHCI/clusters Create cluster
+    steps:
+      - step: Create cluster
+        exampleFile: ../examples/CreateCluster.json
+      - step: Delete cluster
+        exampleFile: ../examples/DeleteCluster.json

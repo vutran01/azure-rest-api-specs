@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HybridNetwork/vendors Create or update Vendor resource
+    steps:
+      - step: Create or update Vendor resource
+        exampleFile: ../examples/VendorCreate.json
+      - step: Delete vendor resource
+        exampleFile: ../examples/VendorDelete.json

@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DataProtection/backupVaults Create BackupVault
+    steps:
+      - step: Create BackupVault
+        exampleFile: ../examples/VaultCRUD/PutBackupVault.json
+      - step: Delete BackupVault
+        exampleFile: ../examples/VaultCRUD/DeleteBackupVault.json
+  - description: Microsoft.DataProtection/backupVaults Create BackupVault With MSI
+    steps:
+      - step: Create BackupVault With MSI
+        exampleFile: ../examples/VaultCRUD/PutBackupVaultWithMSI.json
+      - step: Delete BackupVault
+        exampleFile: ../examples/VaultCRUD/DeleteBackupVault.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/trafficManagerUserMetricsKeys
+      TrafficManagerUserMetricsKeys-PUT
+    steps:
+      - step: TrafficManagerUserMetricsKeys-PUT
+        exampleFile: ../examples/TrafficManagerUserMetricsKeys-PUT.json
+      - step: TrafficManagerUserMetricsKeys-DELETE
+        exampleFile: ../examples/TrafficManagerUserMetricsKeys-DELETE.json

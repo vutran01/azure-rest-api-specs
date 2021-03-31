@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.OperationalInsights/clusters ClustersCreate
+    steps:
+      - step: ClustersCreate
+        exampleFile: ../examples/ClustersCreate.json
+      - step: ClustersDelete
+        exampleFile: ../examples/ClustersDelete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.ManagedServices/registrationAssignments Put Registration
+      Assignment
+    steps:
+      - step: Put Registration Assignment
+        exampleFile: ../examples/PutRegistrationAssignment.json
+      - step: Delete Registration Assignment
+        exampleFile: ../examples/DeleteRegistrationAssignment.json

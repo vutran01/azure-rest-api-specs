@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Quantum/workspaces QuantumWorkspacesPut
+    steps:
+      - step: QuantumWorkspacesPut
+        exampleFile: ../examples/quantumWorkspacesPut.json
+      - step: QuantumWorkspacesDelete
+        exampleFile: ../examples/quantumWorkspacesDelete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DataBoxEdge/dataBoxEdgeDevices DataBoxEdgeDevicePut
+    steps:
+      - step: DataBoxEdgeDevicePut
+        exampleFile: ../examples/DataBoxEdgeDevicePut.json
+      - step: DataBoxEdgeDeviceDelete
+        exampleFile: ../examples/DataBoxEdgeDeviceDelete.json

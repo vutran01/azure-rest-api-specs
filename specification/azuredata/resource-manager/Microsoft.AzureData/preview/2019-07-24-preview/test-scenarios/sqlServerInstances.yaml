@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AzureData/sqlServerInstances Updates a SQL Server Instance tags.
+    steps:
+      - step: Updates a SQL Server Instance tags.
+        exampleFile: ../examples/CreateOrUpdateSqlServerInstance.json
+      - step: Delete a SQL Server Instance.
+        exampleFile: ../examples/DeleteSqlServerInstance.json

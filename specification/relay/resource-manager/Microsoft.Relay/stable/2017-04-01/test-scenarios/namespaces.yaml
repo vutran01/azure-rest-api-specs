@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Relay/namespaces RelayNamespaceCreate
+    steps:
+      - step: RelayNamespaceCreate
+        exampleFile: ../examples/NameSpaces/RelayNameSpaceCreate.json
+      - step: RelayNameSpaceDelete
+        exampleFile: ../examples/NameSpaces/RelayNameSpaceDelete.json

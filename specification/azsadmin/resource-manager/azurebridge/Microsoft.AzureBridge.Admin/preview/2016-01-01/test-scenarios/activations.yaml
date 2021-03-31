@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AzureBridge.Admin/activations Return product name.
+    steps:
+      - step: Return product name.
+        exampleFile: ../examples/Activation/Create.json
+      - step: Delete an activation.
+        exampleFile: ../examples/Activation/Delete.json

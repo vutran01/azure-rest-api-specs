@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.DocumentDB/cassandraClusters
+      CosmosDBManagedCassandraClusterCreate
+    steps:
+      - step: CosmosDBManagedCassandraClusterCreate
+        exampleFile: ../examples/CosmosDBManagedCassandraClusterCreate.json
+      - step: CosmosDBManagedCassandraClusterDelete
+        exampleFile: ../examples/CosmosDBManagedCassandraClusterDelete.json

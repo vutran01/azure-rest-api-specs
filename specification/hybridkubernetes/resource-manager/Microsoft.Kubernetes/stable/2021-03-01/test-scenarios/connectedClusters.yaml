@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Kubernetes/connectedClusters CreateClusterExample
+    steps:
+      - step: CreateClusterExample
+        exampleFile: ../examples/CreateClusterExample.json
+      - step: DeleteClusterExample
+        exampleFile: ../examples/DeleteClusterExample.json

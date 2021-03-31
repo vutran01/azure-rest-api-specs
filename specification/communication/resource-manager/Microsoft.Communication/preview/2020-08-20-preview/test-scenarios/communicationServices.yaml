@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Communication/communicationServices Create or update resource
+    steps:
+      - step: Create or update resource
+        exampleFile: ../examples/createOrUpdate.json
+      - step: Delete resource
+        exampleFile: ../examples/delete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EdgeOrder/addresses CreateAddress
+    steps:
+      - step: CreateAddress
+        exampleFile: ../examples/AddressCreate.json
+      - step: DeleteAddressByName
+        exampleFile: ../examples/AddressDelete.json

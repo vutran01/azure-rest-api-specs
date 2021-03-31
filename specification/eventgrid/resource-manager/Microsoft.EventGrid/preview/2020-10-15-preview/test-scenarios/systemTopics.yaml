@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EventGrid/systemTopics SystemTopics_CreateOrUpdate
+    steps:
+      - step: SystemTopics_CreateOrUpdate
+        exampleFile: ../examples/SystemTopics_CreateOrUpdate.json
+      - step: SystemTopics_Delete
+        exampleFile: ../examples/SystemTopics_Delete.json

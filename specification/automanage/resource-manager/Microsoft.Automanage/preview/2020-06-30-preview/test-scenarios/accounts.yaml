@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Automanage/accounts Create or update Automanage account
+    steps:
+      - step: Create or update Automanage account
+        exampleFile: ../examples/createOrUpdateAccount.json
+      - step: Delete an Automanage account
+        exampleFile: ../examples/deleteAccount.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/privateDnsZones PUT Private DNS Zone
+    steps:
+      - step: PUT Private DNS Zone
+        exampleFile: ../examples/PrivateZonePut.json
+      - step: DELETE Private DNS Zone
+        exampleFile: ../examples/PrivateZoneDelete.json

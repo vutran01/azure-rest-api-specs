@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.SecurityAndCompliance/privateLinkServicesForSCCPowershell Create
+      or Update a service with all parameters
+    steps:
+      - step: Create or Update a service with all parameters
+        exampleFile: ../examples/SCCPowershellServiceCreate.json
+      - step: Delete service
+        exampleFile: ../examples/SCCPowershellServiceDelete.json
+  - description: >-
+      Microsoft.SecurityAndCompliance/privateLinkServicesForSCCPowershell Create
+      or Update a service with minimum parameters
+    steps:
+      - step: Create or Update a service with minimum parameters
+        exampleFile: ../examples/SCCPowershellServiceCreateMinimum.json
+      - step: Delete service
+        exampleFile: ../examples/SCCPowershellServiceDelete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.ProviderHub/providerRegistrations
+      ProviderRegistrations_CreateOrUpdate
+    steps:
+      - step: ProviderRegistrations_CreateOrUpdate
+        exampleFile: ../examples/ProviderRegistrations_CreateOrUpdate.json
+      - step: ProviderRegistrations_Delete
+        exampleFile: ../examples/ProviderRegistrations_Delete.json

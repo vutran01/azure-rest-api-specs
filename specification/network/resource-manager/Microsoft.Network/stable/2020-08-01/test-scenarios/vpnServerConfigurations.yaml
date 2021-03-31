@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/vpnServerConfigurations VpnServerConfigurationCreate
+    steps:
+      - step: VpnServerConfigurationCreate
+        exampleFile: ../examples/VpnServerConfigurationPut.json
+      - step: VpnServerConfigurationDelete
+        exampleFile: ../examples/VpnServerConfigurationDelete.json

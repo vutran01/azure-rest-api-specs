@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.AzureData/sqlServerRegistrations Creates or updates a SQL Server
+      registration.
+    steps:
+      - step: Creates or updates a SQL Server registration.
+        exampleFile: ../examples/CreateOrUpdateSqlServerRegistration.json
+      - step: Deletes a SQL Server registration.
+        exampleFile: ../examples/DeleteSqlServerRegistration.json

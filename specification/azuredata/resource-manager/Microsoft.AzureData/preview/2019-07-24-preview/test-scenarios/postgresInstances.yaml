@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.AzureData/postgresInstances Creates or updates a postgres
+      Instance.
+    steps:
+      - step: Creates or updates a postgres Instance.
+        exampleFile: ../examples/CreateOrUpdatePostgresInstance.json
+      - step: Deletes a PostgresInstances.
+        exampleFile: ../examples/DeletePostgresInstance.json

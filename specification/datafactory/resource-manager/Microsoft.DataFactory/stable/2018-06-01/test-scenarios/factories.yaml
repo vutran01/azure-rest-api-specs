@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DataFactory/factories Factories_CreateOrUpdate
+    steps:
+      - step: Factories_CreateOrUpdate
+        exampleFile: ../examples/Factories_CreateOrUpdate.json
+      - step: Factories_Delete
+        exampleFile: ../examples/Factories_Delete.json

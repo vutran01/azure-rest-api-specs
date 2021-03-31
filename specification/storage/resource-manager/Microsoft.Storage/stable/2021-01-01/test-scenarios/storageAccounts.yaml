@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Storage/storageAccounts StorageAccountCreate
+    steps:
+      - step: StorageAccountCreate
+        exampleFile: ../examples/StorageAccountCreate.json
+      - step: StorageAccountDelete
+        exampleFile: ../examples/StorageAccountDelete.json

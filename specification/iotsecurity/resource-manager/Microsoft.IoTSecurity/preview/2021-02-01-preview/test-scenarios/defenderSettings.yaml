@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.IoTSecurity/defenderSettings Create or update IoT Defender
+      settings
+    steps:
+      - step: Create or update IoT Defender settings
+        exampleFile: ../examples/DefenderSettings/Put.json
+      - step: Delete IoT Defender settings
+        exampleFile: ../examples/DefenderSettings/Delete.json

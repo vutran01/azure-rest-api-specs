@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HanaOnAzure/sapMonitors Create a SAP Monitor
+    steps:
+      - step: Create a SAP Monitor
+        exampleFile: ../examples/SapMonitors_Create.json
+      - step: Deletes a SAP monitor
+        exampleFile: ../examples/SapMonitors_Delete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.EnterpriseKnowledgeGraph/services Create
+      EnterpriseKnowledgeGraph
+    steps:
+      - step: Create EnterpriseKnowledgeGraph
+        exampleFile: ../examples/CreateEnterpriseKnowledgeGraph.json
+      - step: Delete EnterpriseKnowledgeGraph
+        exampleFile: ../examples/DeleteEnterpriseKnowledgeGraph.json

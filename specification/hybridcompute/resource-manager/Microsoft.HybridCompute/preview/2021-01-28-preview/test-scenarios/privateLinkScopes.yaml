@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.HybridCompute/privateLinkScopes PrivateLinkScopeCreate
+    steps:
+      - step: PrivateLinkScopeCreate
+        exampleFile: ../examples/PrivateLinkScopesCreate.json
+      - step: PrivateLinkScopesDelete
+        exampleFile: ../examples/PrivateLinkScopesDelete.json
+  - description: Microsoft.HybridCompute/privateLinkScopes PrivateLinkScopeUpdate
+    steps:
+      - step: PrivateLinkScopeUpdate
+        exampleFile: ../examples/PrivateLinkScopesUpdate.json
+      - step: PrivateLinkScopesDelete
+        exampleFile: ../examples/PrivateLinkScopesDelete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Automanage/configurationProfileAssignments Create or update
+      configuration profile assignment
+    steps:
+      - step: Create or update configuration profile assignment
+        exampleFile: ../examples/createOrUpdateConfigurationProfileAssignment.json
+      - step: Delete an configuration profile assignment
+        exampleFile: ../examples/deleteConfigurationProfileAssignment.json

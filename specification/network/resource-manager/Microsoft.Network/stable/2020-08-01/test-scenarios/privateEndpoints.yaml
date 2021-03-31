@@ -1,0 +1,237 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/privateEndpoints Create private endpoint
+    steps:
+      - step: Create private endpoint
+        exampleFile: ../examples/PrivateEndpointCreate.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints Create private endpoint with manual
+      approval connection
+    steps:
+      - step: Create private endpoint with manual approval connection
+        exampleFile: ../examples/PrivateEndpointCreateForManualApproval.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_appgw_private_endpoint_Generated
+    steps:
+      - step: Create_privateEndpoints_appgw_private_endpoint_Generated
+        exampleFile: >-
+          ../examples/Create_privateEndpoints_appgw_private_endpoint_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_appgw_private_endpoint_Generated_58
+    steps:
+      - step: Create_privateEndpoints_appgw_private_endpoint_Generated_58
+        exampleFile: >-
+          ../examples/Create_privateEndpoints_appgw_private_endpoint_Generated_58.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_private_endpoint_name_Generated
+    steps:
+      - step: Create_privateEndpoints_private_endpoint_name_Generated
+        exampleFile: >-
+          ../examples/Create_privateEndpoints_private_endpoint_name_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_appgw_private_endpoint_for_public_Generated
+    steps:
+      - step: Create_privateEndpoints_appgw_private_endpoint_for_public_Generated
+        exampleFile: >-
+          ../examples/Create_privateEndpoints_appgw_private_endpoint_for_public_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_appgw_private_endpoint_for_private_Generated
+    steps:
+      - step: Create_privateEndpoints_appgw_private_endpoint_for_private_Generated
+        exampleFile: >-
+          ../examples/Create_privateEndpoints_appgw_private_endpoint_for_private_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000005_Generated
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000005_Generated
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000005_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000006_Generated
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000006_Generated
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000006_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000007_Generated
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000007_Generated
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000007_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000005_Generated_669
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000005_Generated_669
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000005_Generated_669.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000006_Generated_677
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000006_Generated_677
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000006_Generated_677.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000007_Generated_685
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000007_Generated_685
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000007_Generated_685.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000005_Generated_2225
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000005_Generated_2225
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000005_Generated_2225.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: Microsoft.Network/privateEndpoints Create_privateEndpoints_pe1_Generated
+    steps:
+      - step: Create_privateEndpoints_pe1_Generated
+        exampleFile: ../examples/Create_privateEndpoints_pe1_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000005_Generated_3078
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000005_Generated_3078
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000005_Generated_3078.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000006_Generated_3086
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000006_Generated_3086
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000006_Generated_3086.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000007_Generated_3094
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000007_Generated_3094
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000007_Generated_3094.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_priv_endpoint000005_Generated
+    steps:
+      - step: Create_privateEndpoints_priv_endpoint000005_Generated
+        exampleFile: ../examples/Create_privateEndpoints_priv_endpoint000005_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_priv_endpoint000007_Generated
+    steps:
+      - step: Create_privateEndpoints_priv_endpoint000007_Generated
+        exampleFile: ../examples/Create_privateEndpoints_priv_endpoint000007_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000004_Generated
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000004_Generated
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000004_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000005_Generated_3150
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000005_Generated_3150
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000005_Generated_3150.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000006_Generated_3170
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000006_Generated_3170
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000006_Generated_3170.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli000005_Generated
+    steps:
+      - step: Create_privateEndpoints_cli000005_Generated
+        exampleFile: ../examples/Create_privateEndpoints_cli000005_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli000005_Generated_3217
+    steps:
+      - step: Create_privateEndpoints_cli000005_Generated_3217
+        exampleFile: ../examples/Create_privateEndpoints_cli000005_Generated_3217.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_cli-pe-000005_Generated_3244
+    steps:
+      - step: Create_privateEndpoints_cli-pe-000005_Generated_3244
+        exampleFile: ../examples/Create_privateEndpoints_cli-pe-000005_Generated_3244.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_webapp-privatelink-endpoint000006_Generated
+    steps:
+      - step: Create_privateEndpoints_webapp-privatelink-endpoint000006_Generated
+        exampleFile: >-
+          ../examples/Create_privateEndpoints_webapp-privatelink-endpoint000006_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_webapp-privatelink-endpoint2000008_Generated
+    steps:
+      - step: Create_privateEndpoints_webapp-privatelink-endpoint2000008_Generated
+        exampleFile: >-
+          ../examples/Create_privateEndpoints_webapp-privatelink-endpoint2000008_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json
+  - description: >-
+      Microsoft.Network/privateEndpoints
+      Create_privateEndpoints_priv_endpoint000004_Generated
+    steps:
+      - step: Create_privateEndpoints_priv_endpoint000004_Generated
+        exampleFile: ../examples/Create_privateEndpoints_priv_endpoint000004_Generated.json
+      - step: Delete private endpoint
+        exampleFile: ../examples/PrivateEndpointDelete.json

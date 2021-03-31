@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.DBForPostgreSql/serverGroupsv2 Create a new server group as a
+      point in time restore
+    steps:
+      - step: Create a new server group as a point in time restore
+        exampleFile: ../examples/ServerGroupCreatePITR.json
+      - step: Delete the server group
+        exampleFile: ../examples/ServerGroupDelete.json

@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: microsoft.aadiam/privateLinkForAzureAd privateLinkPolicyCreate
+    steps:
+      - step: privateLinkPolicyCreate
+        exampleFile: ../examples/AzureADPrivateLinkPolicyCreate.json
+      - step: privateLinkPolicyDelete
+        exampleFile: ../examples/AzureADPrivateLinkPolicyDelete.json
+  - description: microsoft.aadiam/privateLinkForAzureAd privateLinkPolicyMinCreate
+    steps:
+      - step: privateLinkPolicyMinCreate
+        exampleFile: ../examples/AzureADPrivateLinkPolicyMinCreate.json
+      - step: privateLinkPolicyDelete
+        exampleFile: ../examples/AzureADPrivateLinkPolicyDelete.json

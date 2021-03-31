@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/virtualNetworkTaps Create Virtual Network Tap
+    steps:
+      - step: Create Virtual Network Tap
+        exampleFile: ../examples/VirtualNetworkTapCreate.json
+      - step: Delete Virtual Network Tap resource
+        exampleFile: ../examples/VirtualNetworkTapDelete.json

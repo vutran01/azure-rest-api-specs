@@ -1,0 +1,56 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/networkInterfaces Create network interface
+    steps:
+      - step: Create network interface
+        exampleFile: ../examples/NetworkInterfaceCreate.json
+      - step: Delete network interface
+        exampleFile: ../examples/NetworkInterfaceDelete.json
+  - description: >-
+      Microsoft.Network/networkInterfaces
+      Create_networkInterfaces_clitestnic_Generated
+    steps:
+      - step: Create_networkInterfaces_clitestnic_Generated
+        exampleFile: ../examples/Create_networkInterfaces_clitestnic_Generated.json
+      - step: Delete network interface
+        exampleFile: ../examples/NetworkInterfaceDelete.json
+  - description: >-
+      Microsoft.Network/networkInterfaces
+      Create_networkInterfaces_cli-test-nic_Generated
+    steps:
+      - step: Create_networkInterfaces_cli-test-nic_Generated
+        exampleFile: ../examples/Create_networkInterfaces_cli-test-nic_Generated.json
+      - step: Delete network interface
+        exampleFile: ../examples/NetworkInterfaceDelete.json
+  - description: >-
+      Microsoft.Network/networkInterfaces
+      Create_networkInterfaces_nic1_Generated
+    steps:
+      - step: Create_networkInterfaces_nic1_Generated
+        exampleFile: ../examples/Create_networkInterfaces_nic1_Generated.json
+      - step: Delete network interface
+        exampleFile: ../examples/NetworkInterfaceDelete.json
+  - description: >-
+      Microsoft.Network/networkInterfaces
+      Create_networkInterfaces_nic1_Generated_2111
+    steps:
+      - step: Create_networkInterfaces_nic1_Generated_2111
+        exampleFile: ../examples/Create_networkInterfaces_nic1_Generated_2111.json
+      - step: Delete network interface
+        exampleFile: ../examples/NetworkInterfaceDelete.json
+  - description: >-
+      Microsoft.Network/networkInterfaces
+      Create_networkInterfaces_nic1_Generated_2136
+    steps:
+      - step: Create_networkInterfaces_nic1_Generated_2136
+        exampleFile: ../examples/Create_networkInterfaces_nic1_Generated_2136.json
+      - step: Delete network interface
+        exampleFile: ../examples/NetworkInterfaceDelete.json
+  - description: >-
+      Microsoft.Network/networkInterfaces
+      Create_networkInterfaces_nic1_Generated_2160
+    steps:
+      - step: Create_networkInterfaces_nic1_Generated_2160
+        exampleFile: ../examples/Create_networkInterfaces_nic1_Generated_2160.json
+      - step: Delete network interface
+        exampleFile: ../examples/NetworkInterfaceDelete.json

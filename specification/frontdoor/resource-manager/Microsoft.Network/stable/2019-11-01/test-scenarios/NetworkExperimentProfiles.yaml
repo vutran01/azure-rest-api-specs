@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/NetworkExperimentProfiles Creates an NetworkExperiment
+      Profile in a Resource Group
+    steps:
+      - step: Creates an NetworkExperiment Profile in a Resource Group
+        exampleFile: ../examples/NetworkExperimentCreateProfile.json
+      - step: Deletes an NetworkExperiment Profile by ProfileName
+        exampleFile: ../examples/NetworkExperimentDeleteProfile.json

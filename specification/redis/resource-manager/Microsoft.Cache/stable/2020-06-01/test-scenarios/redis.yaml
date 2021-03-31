@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Cache/redis RedisCacheCreate
+    steps:
+      - step: RedisCacheCreate
+        exampleFile: ../examples/RedisCacheCreate.json
+      - step: RedisCacheDelete
+        exampleFile: ../examples/RedisCacheDelete.json

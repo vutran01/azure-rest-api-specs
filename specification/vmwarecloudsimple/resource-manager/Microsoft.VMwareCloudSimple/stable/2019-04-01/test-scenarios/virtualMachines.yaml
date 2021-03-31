@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.VMwareCloudSimple/virtualMachines CreateVirtualMachine
+    steps:
+      - step: CreateVirtualMachine
+        exampleFile: ../examples/CreateVirtualMachine.json
+      - step: DeleteVirtualMachine
+        exampleFile: ../examples/DeleteVirtualMachine.json

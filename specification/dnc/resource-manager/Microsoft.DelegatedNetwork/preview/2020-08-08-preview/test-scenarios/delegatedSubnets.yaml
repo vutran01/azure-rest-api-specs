@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DelegatedNetwork/delegatedSubnets put delegated subnet
+    steps:
+      - step: put delegated subnet
+        exampleFile: ../examples/putDelegatedSubnet.json
+      - step: delete delegated subnet
+        exampleFile: ../examples/deleteDelegatedSubnet.json

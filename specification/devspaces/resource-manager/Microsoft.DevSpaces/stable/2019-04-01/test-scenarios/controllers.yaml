@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DevSpaces/controllers ControllersCreate
+    steps:
+      - step: ControllersCreate
+        exampleFile: ../examples/ControllersCreate_example.json
+      - step: ControllersDelete
+        exampleFile: ../examples/ControllersDelete_example.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/expressRouteCrossConnections
+      UpdateExpressRouteCrossConnection
+    steps:
+      - step: UpdateExpressRouteCrossConnection
+        exampleFile: ../examples/ExpressRouteCrossConnectionUpdate.json

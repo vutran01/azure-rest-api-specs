@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ConfidentialLedger/ledgers ConfidentialLedgerCreate
+    steps:
+      - step: ConfidentialLedgerCreate
+        exampleFile: ../examples/ConfidentialLedger_Create.json
+      - step: ConfidentialLedgerDelete
+        exampleFile: ../examples/ConfidentialLedger_Delete.json

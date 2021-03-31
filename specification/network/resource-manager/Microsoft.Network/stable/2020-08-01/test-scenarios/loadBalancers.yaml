@@ -1,0 +1,158 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/loadBalancers Create load balancer
+    steps:
+      - step: Create load balancer
+        exampleFile: ../examples/LoadBalancerCreate.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create load balancer with Standard SKU
+    steps:
+      - step: Create load balancer with Standard SKU
+        exampleFile: ../examples/LoadBalancerCreateStandardSku.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: >-
+      Microsoft.Network/loadBalancers Create load balancer with Global Tier and
+      one regional load balancer in its backend pool
+    steps:
+      - step: >-
+          Create load balancer with Global Tier and one regional load balancer
+          in its backend pool
+        exampleFile: ../examples/LoadBalancerCreateGlobalTier.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: >-
+      Microsoft.Network/loadBalancers Create load balancer with Frontend IP in
+      Zone 1
+    steps:
+      - step: Create load balancer with Frontend IP in Zone 1
+        exampleFile: ../examples/LoadBalancerCreateWithZones.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create load balancer with inbound nat pool
+    steps:
+      - step: Create load balancer with inbound nat pool
+        exampleFile: ../examples/LoadBalancerCreateWithInboundNatPool.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create load balancer with outbound rules
+    steps:
+      - step: Create load balancer with outbound rules
+        exampleFile: ../examples/LoadBalancerCreateWithOutboundRules.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated
+    steps:
+      - step: Create_loadBalancers_lb1_Generated
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb2_Generated
+    steps:
+      - step: Create_loadBalancers_lb2_Generated
+        exampleFile: ../examples/Create_loadBalancers_lb2_Generated.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1579
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1579
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1579.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1608
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1608
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1608.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1767
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1767
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1767.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1815
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1815
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1815.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1837
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1837
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1837.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1859
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1859
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1859.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb2_Generated_1879
+    steps:
+      - step: Create_loadBalancers_lb2_Generated_1879
+        exampleFile: ../examples/Create_loadBalancers_lb2_Generated_1879.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1887
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1887
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1887.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb2_Generated_1922
+    steps:
+      - step: Create_loadBalancers_lb2_Generated_1922
+        exampleFile: ../examples/Create_loadBalancers_lb2_Generated_1922.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb4_Generated
+    steps:
+      - step: Create_loadBalancers_lb4_Generated
+        exampleFile: ../examples/Create_loadBalancers_lb4_Generated.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1960
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1960
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1960.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb2_Generated_1969
+    steps:
+      - step: Create_loadBalancers_lb2_Generated_1969
+        exampleFile: ../examples/Create_loadBalancers_lb2_Generated_1969.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_1981
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_1981
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_1981.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_mylb_Generated
+    steps:
+      - step: Create_loadBalancers_mylb_Generated
+        exampleFile: ../examples/Create_loadBalancers_mylb_Generated.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_2108
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_2108
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_2108.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_2144
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_2144
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_2144.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json
+  - description: Microsoft.Network/loadBalancers Create_loadBalancers_lb1_Generated_2180
+    steps:
+      - step: Create_loadBalancers_lb1_Generated_2180
+        exampleFile: ../examples/Create_loadBalancers_lb1_Generated_2180.json
+      - step: Delete load balancer
+        exampleFile: ../examples/LoadBalancerDelete.json

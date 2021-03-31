@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.DataLakeStore/accounts Creates the specified Data Lake Store
+      account
+    steps:
+      - step: Creates the specified Data Lake Store account
+        exampleFile: ../examples/Accounts_Create.json
+      - step: Deletes the specified Data Lake Store account
+        exampleFile: ../examples/Accounts_Delete.json

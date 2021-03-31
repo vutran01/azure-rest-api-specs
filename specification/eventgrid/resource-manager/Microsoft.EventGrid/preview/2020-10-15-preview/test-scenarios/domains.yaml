@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EventGrid/domains Domains_CreateOrUpdate
+    steps:
+      - step: Domains_CreateOrUpdate
+        exampleFile: ../examples/Domains_CreateOrUpdate.json
+      - step: Domains_Delete
+        exampleFile: ../examples/Domains_Delete.json

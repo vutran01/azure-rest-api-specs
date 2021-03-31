@@ -1,0 +1,22 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/routeTables Create route table
+    steps:
+      - step: Create route table
+        exampleFile: ../examples/RouteTableCreate.json
+      - step: Delete route table
+        exampleFile: ../examples/RouteTableDelete.json
+  - description: Microsoft.Network/routeTables Create route table with route
+    steps:
+      - step: Create route table with route
+        exampleFile: ../examples/RouteTableCreateWithRoute.json
+      - step: Delete route table
+        exampleFile: ../examples/RouteTableDelete.json
+  - description: >-
+      Microsoft.Network/routeTables
+      Create_routeTables_cli-test-route-table_Generated
+    steps:
+      - step: Create_routeTables_cli-test-route-table_Generated
+        exampleFile: ../examples/Create_routeTables_cli-test-route-table_Generated.json
+      - step: Delete route table
+        exampleFile: ../examples/RouteTableDelete.json

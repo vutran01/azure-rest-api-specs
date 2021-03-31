@@ -1,0 +1,210 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_appgw_Generated
+    steps:
+      - step: Create_applicationGateways_appgw_Generated
+        exampleFile: ../examples/Create_applicationGateways_appgw_Generated.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated
+    steps:
+      - step: Create_applicationGateways_ag1_Generated
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_802
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_802
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_802.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_820
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_820
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_820.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_834
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_834
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_834.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_842
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_842
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_842.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_852
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_852
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_852.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_874
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_874
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_874.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_906
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_906
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_906.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_918
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_918
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_918.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_942
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_942
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_942.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_968
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_968
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_968.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_985
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_985
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_985.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_1011
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_1011
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_1011.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_1033
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_1033
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_1033.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_1070
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_1070
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_1070.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_gw1_Generated
+    steps:
+      - step: Create_applicationGateways_gw1_Generated
+        exampleFile: ../examples/Create_applicationGateways_gw1_Generated.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_1114
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_1114
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_1114.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_1239
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_1239
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_1239.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_1245
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_1245
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_1245.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_gateway_Generated
+    steps:
+      - step: Create_applicationGateways_gateway_Generated
+        exampleFile: ../examples/Create_applicationGateways_gateway_Generated.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag3_Generated
+    steps:
+      - step: Create_applicationGateways_ag3_Generated
+        exampleFile: ../examples/Create_applicationGateways_ag3_Generated.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_gateway_Generated_1402
+    steps:
+      - step: Create_applicationGateways_gateway_Generated_1402
+        exampleFile: ../examples/Create_applicationGateways_gateway_Generated_1402.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_gateway_Generated_1426
+    steps:
+      - step: Create_applicationGateways_gateway_Generated_1426
+        exampleFile: ../examples/Create_applicationGateways_gateway_Generated_1426.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_2077
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_2077
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_2077.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json
+  - description: >-
+      Microsoft.Network/applicationGateways
+      Create_applicationGateways_ag1_Generated_2096
+    steps:
+      - step: Create_applicationGateways_ag1_Generated_2096
+        exampleFile: ../examples/Create_applicationGateways_ag1_Generated_2096.json
+      - step: Delete ApplicationGateway
+        exampleFile: ../examples/ApplicationGatewayDelete.json

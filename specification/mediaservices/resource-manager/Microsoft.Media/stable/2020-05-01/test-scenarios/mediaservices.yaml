@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Media/mediaservices Create a Media Services account
+    steps:
+      - step: Create a Media Services account
+        exampleFile: ../examples/accounts-create.json
+      - step: Delete a Media Services account
+        exampleFile: ../examples/accounts-delete.json

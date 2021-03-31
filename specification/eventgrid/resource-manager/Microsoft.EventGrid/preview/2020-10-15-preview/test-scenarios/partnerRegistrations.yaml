@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.EventGrid/partnerRegistrations
+      PartnerRegistrations_CreateOrUpdate
+    steps:
+      - step: PartnerRegistrations_CreateOrUpdate
+        exampleFile: ../examples/PartnerRegistrations_CreateOrUpdate.json
+      - step: PartnerRegistrations_Delete
+        exampleFile: ../examples/PartnerRegistrations_Delete.json

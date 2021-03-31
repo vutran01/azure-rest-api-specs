@@ -1,0 +1,20 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/trafficmanagerprofiles Profile-PUT-NoEndpoints
+    steps:
+      - step: Profile-PUT-NoEndpoints
+        exampleFile: ../examples/Profile-PUT-NoEndpoints.json
+      - step: Profile-DELETE
+        exampleFile: ../examples/Profile-DELETE.json
+  - description: Microsoft.Network/trafficmanagerprofiles Profile-PUT-WithEndpoints
+    steps:
+      - step: Profile-PUT-WithEndpoints
+        exampleFile: ../examples/Profile-PUT-WithEndpoints.json
+      - step: Profile-DELETE
+        exampleFile: ../examples/Profile-DELETE.json
+  - description: Microsoft.Network/trafficmanagerprofiles Profile-PUT-WithCustomHeaders
+    steps:
+      - step: Profile-PUT-WithCustomHeaders
+        exampleFile: ../examples/Profile-PUT-WithCustomHeaders.json
+      - step: Profile-DELETE
+        exampleFile: ../examples/Profile-DELETE.json

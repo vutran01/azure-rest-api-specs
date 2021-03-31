@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Logic/integrationAccounts Create or update an integration
+      account
+    steps:
+      - step: Create or update an integration account
+        exampleFile: ../examples/IntegrationAccounts_CreateOrUpdate.json
+      - step: Delete an integration account
+        exampleFile: ../examples/IntegrationAccounts_Delete.json

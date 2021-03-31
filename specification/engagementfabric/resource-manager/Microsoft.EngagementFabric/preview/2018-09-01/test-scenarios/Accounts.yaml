@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.EngagementFabric/Accounts AccountsCreateOrUpdateExample
+    steps:
+      - step: AccountsCreateOrUpdateExample
+        exampleFile: ../examples/AccountsCreateOrUpdateExample.json
+      - step: AccountsDeleteExample
+        exampleFile: ../examples/AccountsDeleteExample.json

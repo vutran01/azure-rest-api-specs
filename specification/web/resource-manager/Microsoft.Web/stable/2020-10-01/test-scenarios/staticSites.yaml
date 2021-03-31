@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Web/staticSites Create or update a static site
+    steps:
+      - step: Create or update a static site
+        exampleFile: ../examples/CreateOrUpdateStaticSite.json
+      - step: Delete a static site
+        exampleFile: ../examples/DeleteStaticSite.json

@@ -1,0 +1,30 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ContainerService/managedClusters Create/Update Managed Cluster
+    steps:
+      - step: Create/Update Managed Cluster
+        exampleFile: ../examples/ManagedClustersCreate_Update.json
+      - step: Delete Managed Cluster
+        exampleFile: ../examples/ManagedClustersDelete.json
+  - description: >-
+      Microsoft.ContainerService/managedClusters Create/Update AAD Managed
+      Cluster with EnableAzureRBAC
+    steps:
+      - step: Create/Update AAD Managed Cluster with EnableAzureRBAC
+        exampleFile: ../examples/ManagedClustersCreate_UpdateWithEnableAzureRBAC.json
+      - step: Delete Managed Cluster
+        exampleFile: ../examples/ManagedClustersDelete.json
+  - description: Microsoft.ContainerService/managedClusters Create Managed Cluster with PPG
+    steps:
+      - step: Create Managed Cluster with PPG
+        exampleFile: ../examples/ManagedClustersCreate_PPG.json
+      - step: Delete Managed Cluster
+        exampleFile: ../examples/ManagedClustersDelete.json
+  - description: >-
+      Microsoft.ContainerService/managedClusters Create Managed Cluster with
+      EncryptionAtHost enabled
+    steps:
+      - step: Create Managed Cluster with EncryptionAtHost enabled
+        exampleFile: ../examples/ManagedClustersCreate_EnableEncryptionAtHost.json
+      - step: Delete Managed Cluster
+        exampleFile: ../examples/ManagedClustersDelete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.ManagedServices/registrationDefinitions Put Registration
+      Definition
+    steps:
+      - step: Put Registration Definition
+        exampleFile: ../examples/PutRegistrationDefinition.json
+      - step: Delete Registration Definition
+        exampleFile: ../examples/DeleteRegistrationDefinition.json

@@ -1,0 +1,28 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Insights/activityLogAlerts Create or update an Activity Log
+      Alert rule
+    steps:
+      - step: Create or update an Activity Log Alert rule
+        exampleFile: ../examples/ActivityLogAlertRule_CreateOrUpdate.json
+      - step: Delete an Activity Log Alert rule
+        exampleFile: ../examples/ActivityLogAlertRule_Delete.json
+  - description: >-
+      Microsoft.Insights/activityLogAlerts Create or update an Activity Log
+      Alert rule with 'anyOf' condition
+    steps:
+      - step: Create or update an Activity Log Alert rule with 'anyOf' condition
+        exampleFile: >-
+          ../examples/ActivityLogAlertRule_CreateOrUpdateRuleWithAnyOfCondition.json
+      - step: Delete an Activity Log Alert rule
+        exampleFile: ../examples/ActivityLogAlertRule_Delete.json
+  - description: >-
+      Microsoft.Insights/activityLogAlerts Create or update an Activity Log
+      Alert rule with 'containsAny'
+    steps:
+      - step: Create or update an Activity Log Alert rule with 'containsAny'
+        exampleFile: >-
+          ../examples/ActivityLogAlertRule_CreateOrUpdateRuleWithContainsAny.json
+      - step: Delete an Activity Log Alert rule
+        exampleFile: ../examples/ActivityLogAlertRule_Delete.json

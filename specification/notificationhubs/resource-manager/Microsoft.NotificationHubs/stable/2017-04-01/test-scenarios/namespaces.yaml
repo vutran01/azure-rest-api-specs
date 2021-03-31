@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.NotificationHubs/namespaces NameSpaceCreate
+    steps:
+      - step: NameSpaceCreate
+        exampleFile: ../examples/Namespaces/NHNameSpaceCreate.json
+      - step: NameSpaceDelete
+        exampleFile: ../examples/Namespaces/NHNameSpaceDelete.json

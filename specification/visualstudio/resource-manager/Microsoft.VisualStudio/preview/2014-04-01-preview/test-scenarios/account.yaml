@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: microsoft.visualstudio/account Create an account resource
+    steps:
+      - step: Create an account resource
+        exampleFile: ../examples/CreateResource.json
+      - step: Delete an account resource
+        exampleFile: ../examples/DeleteResource.json

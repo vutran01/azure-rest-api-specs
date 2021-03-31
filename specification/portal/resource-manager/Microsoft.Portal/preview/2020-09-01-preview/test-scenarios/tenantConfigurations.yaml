@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Portal/tenantConfigurations Create or update Tenant
+      configuration
+    steps:
+      - step: Create or update Tenant configuration
+        exampleFile: ../examples/TenantConfiguration/CreateOrUpdateTenantConfiguration.json
+      - step: Delete Tenant configuration
+        exampleFile: ../examples/TenantConfiguration/DeleteTenantConfiguration.json

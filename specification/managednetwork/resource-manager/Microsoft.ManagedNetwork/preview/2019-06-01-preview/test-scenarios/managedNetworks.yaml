@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ManagedNetwork/managedNetworks ManagedNetworksPut
+    steps:
+      - step: ManagedNetworksPut
+        exampleFile: ../examples/ManagedNetwork/ManagedNetworksPut.json
+      - step: ManagedNetworksDelete
+        exampleFile: ../examples/ManagedNetwork/ManagedNetworksDelete.json

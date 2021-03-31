@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.StorSimple/managers ManagersCreateOrUpdate
+    steps:
+      - step: ManagersCreateOrUpdate
+        exampleFile: ../examples/ManagersCreateOrUpdate.json
+      - step: ManagersDelete
+        exampleFile: ../examples/ManagersDelete.json

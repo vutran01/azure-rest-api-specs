@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Migrate/migrateProjects MigrateProjects_Put
+    steps:
+      - step: MigrateProjects_Put
+        exampleFile: ../examples/MigrateProjects_Put.json
+      - step: MigrateProjects_Delete
+        exampleFile: ../examples/MigrateProjects_Delete.json

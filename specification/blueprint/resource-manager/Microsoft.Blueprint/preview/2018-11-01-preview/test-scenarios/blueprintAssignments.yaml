@@ -1,0 +1,22 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Blueprint/blueprintAssignments Assignment with system-assigned
+      managed identity at subscription scope
+    steps:
+      - step: Assignment with system-assigned managed identity at subscription scope
+        exampleFile: >-
+          ../examples/subscriptionBPAssignment/BlueprintAssignment_Create_SystemAssignedMSI.json
+      - step: Assignment_Delete at subscription scope
+        exampleFile: ../examples/subscriptionBPAssignment/BlueprintAssignment_Delete.json
+  - description: >-
+      Microsoft.Blueprint/blueprintAssignments Assignment with system-assigned
+      managed identity at management group scope
+    steps:
+      - step: >-
+          Assignment with system-assigned managed identity at management group
+          scope
+        exampleFile: >-
+          ../examples/managementGroupBPAssignment/BlueprintAssignment_Create_SystemAssignedMSI.json
+      - step: Assignment_Delete at subscription scope
+        exampleFile: ../examples/subscriptionBPAssignment/BlueprintAssignment_Delete.json

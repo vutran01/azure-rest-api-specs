@@ -1,0 +1,26 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.DigitalTwins/digitalTwinsInstances Put a DigitalTwinsInstance
+      resource
+    steps:
+      - step: Put a DigitalTwinsInstance resource
+        exampleFile: ../examples/DigitalTwinsPut_example.json
+      - step: Delete a DigitalTwinsInstance resource
+        exampleFile: ../examples/DigitalTwinsDelete_example.json
+  - description: >-
+      Microsoft.DigitalTwins/digitalTwinsInstances Put a DigitalTwinsInstance
+      resource with identity
+    steps:
+      - step: Put a DigitalTwinsInstance resource with identity
+        exampleFile: ../examples/DigitalTwinsPut_WithIdentity_example.json
+      - step: Delete a DigitalTwinsInstance resource
+        exampleFile: ../examples/DigitalTwinsDelete_example.json
+  - description: >-
+      Microsoft.DigitalTwins/digitalTwinsInstances Put a DigitalTwinsInstance
+      resource with publicNetworkAccess property
+    steps:
+      - step: Put a DigitalTwinsInstance resource with publicNetworkAccess property
+        exampleFile: ../examples/DigitalTwinsPut_WithPublicNetworkAccess.json
+      - step: Delete a DigitalTwinsInstance resource
+        exampleFile: ../examples/DigitalTwinsDelete_example.json

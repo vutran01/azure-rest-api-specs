@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.KeyVault/vaults Create a new vault or update an existing vault
+    steps:
+      - step: Create a new vault or update an existing vault
+        exampleFile: ../examples/createVault.json
+      - step: Delete a vault
+        exampleFile: ../examples/deleteVault.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Logic/integrationServiceEnvironments Create or update an
+      integration service environment
+    steps:
+      - step: Create or update an integration service environment
+        exampleFile: ../examples/IntegrationServiceEnvironments_Put.json
+      - step: Delete an integration account
+        exampleFile: ../examples/IntegrationServiceEnvironments_Delete.json

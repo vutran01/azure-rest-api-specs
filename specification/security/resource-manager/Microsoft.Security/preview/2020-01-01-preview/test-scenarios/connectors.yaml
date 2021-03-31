@@ -1,0 +1,29 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/connectors AwsCred - Create a cloud account connector
+      for a subscription
+    steps:
+      - step: AwsCred - Create a cloud account connector for a subscription
+        exampleFile: >-
+          ../examples/Connectors/CreateUpdateAwsCredConnectorSubscription_example.json
+      - step: Delete a cloud account connector from a subscription
+        exampleFile: ../examples/Connectors/DeleteConnectorSubscription_example.json
+  - description: >-
+      Microsoft.Security/connectors AwsAssumeRole - Create a cloud account
+      connector for a subscription
+    steps:
+      - step: AwsAssumeRole - Create a cloud account connector for a subscription
+        exampleFile: >-
+          ../examples/Connectors/CreateUpdateAwsAssumeRoleConnectorSubscription_example.json
+      - step: Delete a cloud account connector from a subscription
+        exampleFile: ../examples/Connectors/DeleteConnectorSubscription_example.json
+  - description: >-
+      Microsoft.Security/connectors gcpCredentials - Create a cloud account
+      connector for a subscription
+    steps:
+      - step: gcpCredentials - Create a cloud account connector for a subscription
+        exampleFile: >-
+          ../examples/Connectors/CreateUpdateGcpCredentialsConnectorSubscription_example.json
+      - step: Delete a cloud account connector from a subscription
+        exampleFile: ../examples/Connectors/DeleteConnectorSubscription_example.json

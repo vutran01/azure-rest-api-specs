@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Maps/accounts CreateAccount
+    steps:
+      - step: CreateAccount
+        exampleFile: ../examples/CreateAccount.json
+      - step: DeleteAccount
+        exampleFile: ../examples/DeleteAccount.json

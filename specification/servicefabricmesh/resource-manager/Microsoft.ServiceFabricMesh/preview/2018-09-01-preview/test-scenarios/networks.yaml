@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ServiceFabricMesh/networks CreateOrUpdateNetwork
+    steps:
+      - step: CreateOrUpdateNetwork
+        exampleFile: ../examples/networks/create_update.json
+      - step: DeleteNetwork
+        exampleFile: ../examples/networks/delete.json

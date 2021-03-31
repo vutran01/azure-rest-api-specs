@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.MachineLearningExperimentation/accounts AccountCreate
+    steps:
+      - step: AccountCreate
+        exampleFile: ../examples/CreateAccount.json
+      - step: AccountCreate
+        exampleFile: ../examples/DeleteAccount.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ManagedIdentity/userAssignedIdentities IdentityCreate
+    steps:
+      - step: IdentityCreate
+        exampleFile: ../examples/IdentityCreate.json
+      - step: IdentityDelete
+        exampleFile: ../examples/IdentityDelete.json

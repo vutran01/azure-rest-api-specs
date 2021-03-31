@@ -1,0 +1,42 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/azureFirewalls Create Azure Firewall
+    steps:
+      - step: Create Azure Firewall
+        exampleFile: ../examples/AzureFirewallPut.json
+      - step: Delete Azure Firewall
+        exampleFile: ../examples/AzureFirewallDelete.json
+  - description: Microsoft.Network/azureFirewalls Create Azure Firewall With Zones
+    steps:
+      - step: Create Azure Firewall With Zones
+        exampleFile: ../examples/AzureFirewallPutWithZones.json
+      - step: Delete Azure Firewall
+        exampleFile: ../examples/AzureFirewallDelete.json
+  - description: >-
+      Microsoft.Network/azureFirewalls Create Azure Firewall With management
+      subnet
+    steps:
+      - step: Create Azure Firewall With management subnet
+        exampleFile: ../examples/AzureFirewallPutWithMgmtSubnet.json
+      - step: Delete Azure Firewall
+        exampleFile: ../examples/AzureFirewallDelete.json
+  - description: Microsoft.Network/azureFirewalls Create Azure Firewall in virtual Hub
+    steps:
+      - step: Create Azure Firewall in virtual Hub
+        exampleFile: ../examples/AzureFirewallPutInHub.json
+      - step: Delete Azure Firewall
+        exampleFile: ../examples/AzureFirewallDelete.json
+  - description: >-
+      Microsoft.Network/azureFirewalls Create Azure Firewall With Additional
+      Properties
+    steps:
+      - step: Create Azure Firewall With Additional Properties
+        exampleFile: ../examples/AzureFirewallPutWithAdditionalProperties.json
+      - step: Delete Azure Firewall
+        exampleFile: ../examples/AzureFirewallDelete.json
+  - description: Microsoft.Network/azureFirewalls Create Azure Firewall With IpGroups
+    steps:
+      - step: Create Azure Firewall With IpGroups
+        exampleFile: ../examples/AzureFirewallPutWithIpGroups.json
+      - step: Delete Azure Firewall
+        exampleFile: ../examples/AzureFirewallDelete.json

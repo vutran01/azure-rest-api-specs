@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.StoragePool/diskPools Create or Update Disk pool
+    steps:
+      - step: Create or Update Disk pool
+        exampleFile: ../examples/DiskPools_Put.json
+      - step: Delete Disk pool
+        exampleFile: ../examples/DiskPools_Delete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AlertsManagement/actionRules PutActionRule
+    steps:
+      - step: PutActionRule
+        exampleFile: ../examples/ActionRules_Create_SuppressionRule.json
+      - step: DeleteActionRule
+        exampleFile: ../examples/ActionRules_Delete.json

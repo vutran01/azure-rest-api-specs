@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/expressRouteGateways ExpressRouteGatewayCreate
+    steps:
+      - step: ExpressRouteGatewayCreate
+        exampleFile: ../examples/ExpressRouteGatewayCreate.json
+      - step: ExpressRouteGatewayDelete
+        exampleFile: ../examples/ExpressRouteGatewayDelete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.OperationsManagement/ManagementConfigurations
+      ManagementConfigurationCreate
+    steps:
+      - step: ManagementConfigurationCreate
+        exampleFile: ../examples/ManagementConfigurationCreate.json
+      - step: ManagementConfigurationDelete
+        exampleFile: ../examples/ManagementConfigurationDelete.json

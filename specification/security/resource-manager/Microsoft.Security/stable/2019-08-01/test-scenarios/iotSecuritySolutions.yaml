@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/iotSecuritySolutions Create or update a IoT security
+      solution
+    steps:
+      - step: Create or update a IoT security solution
+        exampleFile: ../examples/IoTSecuritySolutions/CreateIoTSecuritySolution.json
+      - step: Delete an IoT security solution
+        exampleFile: ../examples/IoTSecuritySolutions/DeleteIoTSecuritySolution.json

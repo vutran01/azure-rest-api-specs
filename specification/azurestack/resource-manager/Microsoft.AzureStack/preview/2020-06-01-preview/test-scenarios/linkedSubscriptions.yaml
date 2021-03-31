@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.AzureStack/linkedSubscriptions Create or update a Linked
+      Subscription.
+    steps:
+      - step: Create or update a Linked Subscription.
+        exampleFile: ../examples/LinkedSubscription/Put.json
+      - step: Delete the requested Linked Subscription.
+        exampleFile: ../examples/LinkedSubscription/Delete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Management/managementGroups PutManagementGroup
+    steps:
+      - step: PutManagementGroup
+        exampleFile: ../examples/PutManagementGroup.json
+      - step: DeleteManagementGroup
+        exampleFile: ../examples/DeleteManagementGroup.json

@@ -1,0 +1,6 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Confluent/agreements MarketplaceAgreements_Create
+    steps:
+      - step: MarketplaceAgreements_Create
+        exampleFile: ../examples/MarketplaceAgreements_Create.json

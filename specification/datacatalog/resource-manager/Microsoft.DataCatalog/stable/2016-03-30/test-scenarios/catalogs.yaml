@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DataCatalog/catalogs Create Azure Data Catalog Service
+    steps:
+      - step: Create Azure Data Catalog Service
+        exampleFile: ../examples/CreateOrUpdateADCCatalog.json
+      - step: Delete Azure Data Catalog Service
+        exampleFile: ../examples/DeleteADCCatalog.json

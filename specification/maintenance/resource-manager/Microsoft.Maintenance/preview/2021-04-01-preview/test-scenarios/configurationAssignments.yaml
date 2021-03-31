@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Maintenance/configurationAssignments
+      ConfigurationAssignments_CreateOrUpdateParent
+    steps:
+      - step: ConfigurationAssignments_CreateOrUpdateParent
+        exampleFile: ../examples/ConfigurationAssignments_CreateOrUpdateParent.json
+      - step: ConfigurationAssignments_DeleteParent
+        exampleFile: ../examples/ConfigurationAssignments_DeleteParent.json

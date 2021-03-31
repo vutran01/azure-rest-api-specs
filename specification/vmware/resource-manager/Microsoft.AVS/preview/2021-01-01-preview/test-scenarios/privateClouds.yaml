@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AVS/privateClouds PrivateClouds_CreateOrUpdate
+    steps:
+      - step: PrivateClouds_CreateOrUpdate
+        exampleFile: ../examples/PrivateClouds_CreateOrUpdate.json
+      - step: PrivateClouds_Delete
+        exampleFile: ../examples/PrivateClouds_Delete.json

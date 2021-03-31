@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.MixedReality/objectAnchorsAccounts Create object anchors account
+    steps:
+      - step: Create object anchors account
+        exampleFile: ../examples/object-anchors/Put.json
+      - step: Delete object anchors account
+        exampleFile: ../examples/object-anchors/Delete.json

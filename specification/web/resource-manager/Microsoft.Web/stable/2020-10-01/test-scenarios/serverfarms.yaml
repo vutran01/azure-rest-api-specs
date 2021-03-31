@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Web/serverfarms Create Or Update App Service plan
+    steps:
+      - step: Create Or Update App Service plan
+        exampleFile: ../examples/CreateOrUpdateAppServicePlan.json
+      - step: Delete App Service plan
+        exampleFile: ../examples/DeleteAppServicePlan.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: microsoft.aadiam/azureADMetrics azureADMetricsCreate
+    steps:
+      - step: azureADMetricsCreate
+        exampleFile: ../examples/AzureADMetricsCreateOrUpdate.json
+      - step: azureADMetricsDelete
+        exampleFile: ../examples/AzureADMetricsDelete.json

@@ -1,0 +1,27 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/automations Create or update a security automation for
+      all assessments
+    steps:
+      - step: Create or update a security automation for all assessments
+        exampleFile: ../examples/Automations/PutAutomationAllAssessments_example.json
+      - step: Delete a security automation
+        exampleFile: ../examples/Automations/DeleteAutomation_example.json
+  - description: >-
+      Microsoft.Security/automations Create or update a security automation for
+      all high severity assessments
+    steps:
+      - step: >-
+          Create or update a security automation for all high severity
+          assessments
+        exampleFile: >-
+          ../examples/Automations/PutAutomationHighSeverityAssessments_example.json
+      - step: Delete a security automation
+        exampleFile: ../examples/Automations/DeleteAutomation_example.json
+  - description: Microsoft.Security/automations Disable or enable a security automation
+    steps:
+      - step: Disable or enable a security automation
+        exampleFile: ../examples/Automations/PutDisableAutomation_example.json
+      - step: Delete a security automation
+        exampleFile: ../examples/Automations/DeleteAutomation_example.json

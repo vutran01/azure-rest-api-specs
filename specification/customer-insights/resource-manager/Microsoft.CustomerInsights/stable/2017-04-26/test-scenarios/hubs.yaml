@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.CustomerInsights/hubs Hubs_CreateOrUpdate
+    steps:
+      - step: Hubs_CreateOrUpdate
+        exampleFile: ../examples/HubsCreateOrUpdate.json
+      - step: Hubs_Delete
+        exampleFile: ../examples/HubsDelete.json

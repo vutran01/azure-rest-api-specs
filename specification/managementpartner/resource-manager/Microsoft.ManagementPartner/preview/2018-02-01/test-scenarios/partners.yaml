@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.ManagementPartner/partners PutPartnerDetails
+    steps:
+      - step: PutPartnerDetails
+        exampleFile: ../examples/PutPartnerDetails.json
+      - step: DeletePartnerDetails
+        exampleFile: ../examples/DeletePartnerDetails.json

@@ -1,0 +1,12 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Security/alertsSuppressionRules Update or create suppression
+      rule for subscription
+    steps:
+      - step: Update or create suppression rule for subscription
+        exampleFile: >-
+          ../examples/AlertsSuppressionRules/PutAlertsSuppressionRule_example.json
+      - step: Delete suppression rule data for a subscription
+        exampleFile: >-
+          ../examples/AlertsSuppressionRules/DeleteAlertsSuppressionRule_example.json

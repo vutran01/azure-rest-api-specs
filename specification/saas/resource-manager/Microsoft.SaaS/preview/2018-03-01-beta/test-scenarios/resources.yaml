@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.SaaS/resources Create subscription level SaaS resource
+    steps:
+      - step: Create subscription level SaaS resource
+        exampleFile: ../examples/saasSubscriptionLevel/SaasPut.json
+      - step: Delete Subscription Level SaaS resource
+        exampleFile: ../examples/saasSubscriptionLevel/SaasDelete.json

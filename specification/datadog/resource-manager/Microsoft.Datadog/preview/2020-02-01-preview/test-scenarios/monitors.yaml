@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Datadog/monitors Monitors_Create
+    steps:
+      - step: Monitors_Create
+        exampleFile: ../examples/Monitors_Create.json
+      - step: Monitors_Delete
+        exampleFile: ../examples/Monitors_Delete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Portal/consoles PutConsole
+    steps:
+      - step: PutConsole
+        exampleFile: ../examples/PutConsole.json
+      - step: DeleteConsole
+        exampleFile: ../examples/DeleteConsole.json

@@ -1,0 +1,11 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Network/networkVirtualAppliances
+      Create_networkVirtualAppliances_cli-virtual-appliance_Generated
+    steps:
+      - step: Create_networkVirtualAppliances_cli-virtual-appliance_Generated
+        exampleFile: >-
+          ../examples/Create_networkVirtualAppliances_cli-virtual-appliance_Generated.json
+      - step: Delete NetworkVirtualAppliance
+        exampleFile: ../examples/NetworkVirtualApplianceDelete.json

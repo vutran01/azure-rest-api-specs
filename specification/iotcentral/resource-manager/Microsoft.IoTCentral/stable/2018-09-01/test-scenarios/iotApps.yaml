@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.IoTCentral/iotApps Apps_CreateOrUpdate
+    steps:
+      - step: Apps_CreateOrUpdate
+        exampleFile: ../examples/Apps_CreateOrUpdate.json
+      - step: Apps_Delete
+        exampleFile: ../examples/Apps_Delete.json

@@ -1,0 +1,10 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.MixedReality/spatialAnchorsAccounts Create spatial anchor
+      account
+    steps:
+      - step: Create spatial anchor account
+        exampleFile: ../examples/spatial-anchors/Put.json
+      - step: Delete spatial anchors account
+        exampleFile: ../examples/spatial-anchors/Delete.json

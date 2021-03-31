@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DesktopVirtualization/scalingPlans ScalingPlans_Create
+    steps:
+      - step: ScalingPlans_Create
+        exampleFile: ../examples/ScalingPlan_Create.json
+      - step: ScalingPlans_Delete
+        exampleFile: ../examples/ScalingPlan_Delete.json

@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.SoftwarePlan/hybridUseBenefits HybridUseBenefit
+    steps:
+      - step: HybridUseBenefit
+        exampleFile: ../examples/PutHybridUseBenefit.json
+      - step: HybridUseBenefit
+        exampleFile: ../examples/DeleteHybridUseBenefit.json

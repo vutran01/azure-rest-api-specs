@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/networkProfiles Create network profile defaults
+    steps:
+      - step: Create network profile defaults
+        exampleFile: ../examples/NetworkProfileCreateConfigOnly.json
+      - step: Delete network profile
+        exampleFile: ../examples/NetworkProfileDelete.json

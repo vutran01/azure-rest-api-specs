@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Security/iotSensors Create or update IoT sensor
+    steps:
+      - step: Create or update IoT sensor
+        exampleFile: ../examples/IotSensors/Put.json
+      - step: Delete IoT sensor
+        exampleFile: ../examples/IotSensors/Delete.json

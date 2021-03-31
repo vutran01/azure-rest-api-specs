@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Security/iotSites Create or update IoT site
+    steps:
+      - step: Create or update IoT site
+        exampleFile: ../examples/IotSites/Put.json
+      - step: Delete IoT site
+        exampleFile: ../examples/IotSites/Delete.json

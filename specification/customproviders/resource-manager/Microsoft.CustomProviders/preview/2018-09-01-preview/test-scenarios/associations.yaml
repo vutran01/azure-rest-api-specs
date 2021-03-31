@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.CustomProviders/associations Create or update an association
+    steps:
+      - step: Create or update an association
+        exampleFile: ../examples/createOrUpdateAssociation.json
+      - step: Delete an association
+        exampleFile: ../examples/deleteAssociation.json

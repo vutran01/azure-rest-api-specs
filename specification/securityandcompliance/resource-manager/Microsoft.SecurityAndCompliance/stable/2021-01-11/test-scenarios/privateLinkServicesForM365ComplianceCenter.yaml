@@ -1,0 +1,18 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.SecurityAndCompliance/privateLinkServicesForM365ComplianceCenter
+      Create or Update a service with all parameters
+    steps:
+      - step: Create or Update a service with all parameters
+        exampleFile: ../examples/ComplianceCenterServiceCreate.json
+      - step: Delete service
+        exampleFile: ../examples/ComplianceCenterServiceDelete.json
+  - description: >-
+      Microsoft.SecurityAndCompliance/privateLinkServicesForM365ComplianceCenter
+      Create or Update a service with minimum parameters
+    steps:
+      - step: Create or Update a service with minimum parameters
+        exampleFile: ../examples/ComplianceCenterServiceCreateMinimum.json
+      - step: Delete service
+        exampleFile: ../examples/ComplianceCenterServiceDelete.json

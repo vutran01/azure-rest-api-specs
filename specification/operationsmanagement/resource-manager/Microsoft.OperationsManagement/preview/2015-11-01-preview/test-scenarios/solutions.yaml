@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.OperationsManagement/solutions SolutionCreate
+    steps:
+      - step: SolutionCreate
+        exampleFile: ../examples/SolutionCreate.json
+      - step: SolutionDelete
+        exampleFile: ../examples/SolutionDelete.json

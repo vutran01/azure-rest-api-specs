@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Peering/peeringServices Create a  peering service
+    steps:
+      - step: Create a  peering service
+        exampleFile: ../examples/CreatePeeringService.json
+      - step: Delete a peering service
+        exampleFile: ../examples/DeletePeeringService.json

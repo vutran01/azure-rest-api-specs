@@ -1,0 +1,38 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Databricks/workspaces Create or update workspace
+    steps:
+      - step: Create or update workspace
+        exampleFile: ../examples/WorkspaceCreate.json
+      - step: Delete a workspace
+        exampleFile: ../examples/WorkspaceDelete.json
+  - description: >-
+      Microsoft.Databricks/workspaces Create a workspace which is ready for
+      Customer-Managed Key (CMK) encryption
+    steps:
+      - step: >-
+          Create a workspace which is ready for Customer-Managed Key (CMK)
+          encryption
+        exampleFile: ../examples/PrepareEncryption.json
+      - step: Delete a workspace
+        exampleFile: ../examples/WorkspaceDelete.json
+  - description: >-
+      Microsoft.Databricks/workspaces Enable Customer-Managed Key (CMK)
+      encryption on a workspace which is prepared for encryption
+    steps:
+      - step: >-
+          Enable Customer-Managed Key (CMK) encryption on a workspace which is
+          prepared for encryption
+        exampleFile: ../examples/EnableEncryption.json
+      - step: Delete a workspace
+        exampleFile: ../examples/WorkspaceDelete.json
+  - description: >-
+      Microsoft.Databricks/workspaces Revert Customer-Managed Key (CMK)
+      encryption to Microsoft Managed Keys encryption on a workspace
+    steps:
+      - step: >-
+          Revert Customer-Managed Key (CMK) encryption to Microsoft Managed Keys
+          encryption on a workspace
+        exampleFile: ../examples/DisableEncryption.json
+      - step: Delete a workspace
+        exampleFile: ../examples/WorkspaceDelete.json

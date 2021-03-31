@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.AAD/domainServices Create Domain Service
+    steps:
+      - step: Create Domain Service
+        exampleFile: ../examples/CreateDomainService.json
+      - step: Delete Domain Service
+        exampleFile: ../examples/DeleteDomainService.json

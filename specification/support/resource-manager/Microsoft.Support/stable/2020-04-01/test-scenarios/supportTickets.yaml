@@ -1,0 +1,130 @@
+scope: ResourceGroup
+testScenarios:
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket for Billing related
+      issues
+    steps:
+      - step: Create a ticket for Billing related issues
+        exampleFile: ../examples/CreateBillingSupportTicketForSubscription.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket for Subscription
+      Management related issues
+    steps:
+      - step: Create a ticket for Subscription Management related issues
+        exampleFile: ../examples/CreateSubMgmtSupportTicketForSubscription.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket for Technical issue
+      related to a specific resource
+    steps:
+      - step: Create a ticket for Technical issue related to a specific resource
+        exampleFile: ../examples/CreateTechnicalSupportTicketForSubscription.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Compute VM Cores
+    steps:
+      - step: Create a ticket to request Quota increase for Compute VM Cores
+        exampleFile: ../examples/CreateCoresQuotaTicketForSubscription.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Low-priority cores for a Batch account
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for Low-priority cores for a
+          Batch account
+        exampleFile: >-
+          ../examples/CreateBatchQuotaTicketForSpecificBatchAccountForLowPriorityCores.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for specific VM family cores for a Batch account
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for specific VM family cores
+          for a Batch account
+        exampleFile: >-
+          ../examples/CreateBatchQuotaTicketForSpecificBatchAccountForDedicatedCores.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Pools for a Batch account
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for Pools for a Batch
+          account
+        exampleFile: ../examples/CreateBatchQuotaTicketForSpecificBatchAccountForPools.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Active Jobs and Job Schedules for a Batch account
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for Active Jobs and Job
+          Schedules for a Batch account
+        exampleFile: >-
+          ../examples/CreateBatchQuotaTicketForSpecificBatchAccountForActiveJobs.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Batch accounts for a subscription
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for Batch accounts for a
+          subscription
+        exampleFile: ../examples/CreateBatchQuotaTicketForSubscription.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for DTUs for SQL Database
+    steps:
+      - step: Create a ticket to request Quota increase for DTUs for SQL Database
+        exampleFile: ../examples/CreateSqlDatabaseQuotaTicketForDTUs.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Servers for SQL Database
+    steps:
+      - step: Create a ticket to request Quota increase for Servers for SQL Database
+        exampleFile: ../examples/CreateSqlDatabaseQuotaTicketForServers.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for DTUs for Azure Synapse Analytics
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for DTUs for Azure Synapse
+          Analytics
+        exampleFile: ../examples/CreateSqlDatawarehouseQuotaTicketForDTUs.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Servers for Azure Synapse Analytics
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for Servers for Azure
+          Synapse Analytics
+        exampleFile: ../examples/CreateSqlDatawarehouseQuotaTicketForServers.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for specific VM family cores for Machine Learning service
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for specific VM family cores
+          for Machine Learning service
+        exampleFile: ../examples/CreateMachineLearningQuotaTicketForDedicatedCores.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Low-priority cores for Machine Learning service
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for Low-priority cores for
+          Machine Learning service
+        exampleFile: ../examples/CreateMachineLearningQuotaTicketForLowPriorityCores.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for Azure SQL managed instance
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for Azure SQL managed
+          instance
+        exampleFile: ../examples/CreateSqlManagedInstanceQuotaTicket.json
+  - description: >-
+      Microsoft.Support/supportTickets Create a ticket to request Quota increase
+      for services that do not require additional details in the
+      quotaTicketDetails object
+    steps:
+      - step: >-
+          Create a ticket to request Quota increase for services that do not
+          require additional details in the quotaTicketDetails object
+        exampleFile: ../examples/CreateGenericQuotaTicket.json

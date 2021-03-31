@@ -1,0 +1,6 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Capacity/reservationOrders Purchase
+    steps:
+      - step: Purchase
+        exampleFile: ../examples/PurchaseReservationOrder.json

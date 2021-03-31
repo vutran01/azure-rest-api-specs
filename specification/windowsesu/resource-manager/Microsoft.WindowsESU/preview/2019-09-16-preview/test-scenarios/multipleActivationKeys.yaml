@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.WindowsESU/multipleActivationKeys CreateMultipleActivationKey
+    steps:
+      - step: CreateMultipleActivationKey
+        exampleFile: ../examples/CreateMultipleActivationKey.json
+      - step: DeleteMultipleActivationKey
+        exampleFile: ../examples/DeleteMultipleActivationKey.json

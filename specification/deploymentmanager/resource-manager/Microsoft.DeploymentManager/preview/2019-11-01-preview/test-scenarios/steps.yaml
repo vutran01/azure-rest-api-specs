@@ -1,0 +1,14 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DeploymentManager/steps Create wait step
+    steps:
+      - step: Create wait step
+        exampleFile: ../examples/step_wait_createorupdate.json
+      - step: Delete deployment step
+        exampleFile: ../examples/step_delete.json
+  - description: Microsoft.DeploymentManager/steps Create health check step
+    steps:
+      - step: Create health check step
+        exampleFile: ../examples/step_health_check_createorupdate.json
+      - step: Delete deployment step
+        exampleFile: ../examples/step_delete.json

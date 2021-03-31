@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DocumentDB/databaseAccounts CosmosDBDatabaseAccountCreateMin
+    steps:
+      - step: CosmosDBDatabaseAccountCreateMin
+        exampleFile: ../examples/CosmosDBDatabaseAccountCreateMin.json
+      - step: CosmosDBDatabaseAccountDelete
+        exampleFile: ../examples/CosmosDBDatabaseAccountDelete.json

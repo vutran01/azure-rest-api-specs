@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/vpnGateways VpnGatewayPut
+    steps:
+      - step: VpnGatewayPut
+        exampleFile: ../examples/VpnGatewayPut.json
+      - step: VpnGatewayDelete
+        exampleFile: ../examples/VpnGatewayDelete.json

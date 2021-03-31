@@ -1,0 +1,64 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Network/expressRouteCircuits Create ExpressRouteCircuit
+    steps:
+      - step: Create ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitCreate.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json
+  - description: >-
+      Microsoft.Network/expressRouteCircuits
+      Create_expressRouteCircuits_circuit1_Generated
+    steps:
+      - step: Create_expressRouteCircuits_circuit1_Generated
+        exampleFile: ../examples/Create_expressRouteCircuits_circuit1_Generated.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json
+  - description: >-
+      Microsoft.Network/expressRouteCircuits
+      Create_expressRouteCircuits_er1_Generated
+    steps:
+      - step: Create_expressRouteCircuits_er1_Generated
+        exampleFile: ../examples/Create_expressRouteCircuits_er1_Generated.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json
+  - description: >-
+      Microsoft.Network/expressRouteCircuits
+      Create_expressRouteCircuits_er2_Generated
+    steps:
+      - step: Create_expressRouteCircuits_er2_Generated
+        exampleFile: ../examples/Create_expressRouteCircuits_er2_Generated.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json
+  - description: >-
+      Microsoft.Network/expressRouteCircuits
+      Create_expressRouteCircuits_circuit1_Generated_1702
+    steps:
+      - step: Create_expressRouteCircuits_circuit1_Generated_1702
+        exampleFile: ../examples/Create_expressRouteCircuits_circuit1_Generated_1702.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json
+  - description: >-
+      Microsoft.Network/expressRouteCircuits
+      Create_expressRouteCircuits_test_circuit_Generated
+    steps:
+      - step: Create_expressRouteCircuits_test_circuit_Generated
+        exampleFile: ../examples/Create_expressRouteCircuits_test_circuit_Generated.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json
+  - description: >-
+      Microsoft.Network/expressRouteCircuits
+      Create_expressRouteCircuits_er1_Generated_1712
+    steps:
+      - step: Create_expressRouteCircuits_er1_Generated_1712
+        exampleFile: ../examples/Create_expressRouteCircuits_er1_Generated_1712.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json
+  - description: >-
+      Microsoft.Network/expressRouteCircuits
+      Create_expressRouteCircuits_er2_Generated_1716
+    steps:
+      - step: Create_expressRouteCircuits_er2_Generated_1716
+        exampleFile: ../examples/Create_expressRouteCircuits_er2_Generated_1716.json
+      - step: Delete ExpressRouteCircuit
+        exampleFile: ../examples/ExpressRouteCircuitDelete.json

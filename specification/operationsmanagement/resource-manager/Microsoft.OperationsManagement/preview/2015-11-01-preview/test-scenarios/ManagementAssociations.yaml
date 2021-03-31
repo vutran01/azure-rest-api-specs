@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.OperationsManagement/ManagementAssociations SolutionCreate
+    steps:
+      - step: SolutionCreate
+        exampleFile: ../examples/ManagementAssociationCreate.json
+      - step: SolutionDelete
+        exampleFile: ../examples/ManagementAssociationDelete.json

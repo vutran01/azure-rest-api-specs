@@ -1,0 +1,8 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.Synapse/workspaces Create or update a workspace
+    steps:
+      - step: Create or update a workspace
+        exampleFile: ../examples/CreateOrUpdateWorkspace.json
+      - step: Delete a workspace
+        exampleFile: ../examples/DeleteWorkspace.json

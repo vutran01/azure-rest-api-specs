@@ -1,0 +1,26 @@
+scope: ResourceGroup
+testScenarios:
+  - description: Microsoft.DataBox/jobs JobsCreate
+    steps:
+      - step: JobsCreate
+        exampleFile: ../examples/JobsCreate.json
+      - step: JobsDelete
+        exampleFile: ../examples/JobsDelete.json
+  - description: Microsoft.DataBox/jobs JobsCreateDevicePassword
+    steps:
+      - step: JobsCreateDevicePassword
+        exampleFile: ../examples/JobsCreateDevicePassword.json
+      - step: JobsDelete
+        exampleFile: ../examples/JobsDelete.json
+  - description: Microsoft.DataBox/jobs JobsCreateExport
+    steps:
+      - step: JobsCreateExport
+        exampleFile: ../examples/JobsCreateExport.json
+      - step: JobsDelete
+        exampleFile: ../examples/JobsDelete.json
+  - description: Microsoft.DataBox/jobs JobsCreateDoubleEncryption
+    steps:
+      - step: JobsCreateDoubleEncryption
+        exampleFile: ../examples/JobsCreateDoubleEncryption.json
+      - step: JobsDelete
+        exampleFile: ../examples/JobsDelete.json
